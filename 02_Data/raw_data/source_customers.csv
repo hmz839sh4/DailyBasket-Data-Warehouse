@@ -1,0 +1,632 @@
+customer_id,customer_name,email,gender,age_group,customer_segment,signup_date
+C-00184,  Kamran Shah ,kamran.shah184@mail.com,Male,45-54,Loyalty Member,2024-09-05
+C-00278,  Zain Bhatti ,zain.bhatti278@mail.com,Male,18-24,Regular,2023-07-14
+C-00513,  Hira Nawaz ,hira.nawaz513@mail.com,F,35-44,Regular,2026-05-09
+C-00166,Kamran Qureshi,kamran.qureshi166@mail.com,Male,55+,Wholesale,2026-01-31
+C-00594,Noor Sheikh,noor.sheikh594@mail.com,Female,25-34,Loyalty Member,2024-10-06
+C-00421,Ahmed Bhatti,ahmed.bhatti421@mail.com,Male,55+,Loyalty Member,2024-04-10
+C-00137,Laiba Nawaz,laiba.nawaz137@mail.com,Female,35-44,Loyalty Member,2023-07-26
+C-00382,Zainab Farooq,zainab.farooq382@mail.com,Female,25-34,Loyalty Member,2025-07-05
+C-00315,Zain Mirza,zain.mirza315@mail.com,Male,35-44,Regular,2025-10-07
+C-00319,Omar Javed,omar.javed319@mail.com,Male,35-44,Loyalty Member,2025-10-16
+C-00277,Zain Malik,zain.malik277@mail.com,Male,18-24, Wholesale ,2025-12-18
+C-00420,Fahad Abbasi,fahad.abbasi420@mail.com,Male,35-44,Loyalty Member,2025-06-11
+C-00158,  Kamran Aslam ,kamran.aslam158@mail.com,Male,35-44, Wholesale ,2026-01-08
+C-00435,Bilal Bhatti,bilal.bhatti435@mail.com,Male,18-24,Regular,2023-11-24
+C-00015,Kamran Iqbal,kamran.iqbal15@mail.com,Male,25-34,Regular,2023-11-11
+C-00335,  Zainab Iqbal ,zainab.iqbal335@mail.com,Female,25-34,Regular,2025-04-26
+C-00561,Maryam Shah,maryam.shah561@mail.com,Female,25-34,Loyalty Member,2024-04-01
+C-00344,Talha Iqbal,talha.iqbal344@mail.com,Male,45-54,Regular,2024-12-14
+,Walk In Customer,,Male,25-34,Regular,2025-01-01
+C-00210,Mahnoor Nawaz,mahnoor.nawaz210@mail.com,Female,35-44,Regular,2026-01-02
+C-00179,Iqra Iqbal,iqra.iqbal179@mail.com,Female,35-44,Loyalty Member,2026-01-17
+C-00113,Hassan Raza,hassan.raza113@mail.com,Male,45-54,Wholesale,2025-01-02
+,Walk In Customer,,Male,25-34,Regular,2025-01-01
+C-00287,Kamran Abbasi,kamran.abbasi287@mail.com,Male,45-54,Regular,2026-04-17
+C-00177,Bilal Siddiqui,bilal.siddiqui177@mail.com,Male,18-24,Loyalty Member,N/A
+C-00114,Talha Bhatti,talha.bhatti114@mail.com,Male,18-24,Regular,2025-04-17
+C-00432,Danish Butt,danish.butt432@mail.com,Male,45-54,REGULAR,2025-06-10
+C-00358,Mahnoor Bhatti,mahnoor.bhatti358@mail.com,Female,25-34,Regular,2024-04-03
+C-00178,SAAD SHEIKH,new.saad.sheikh178@mail.com,Male,18-24,Regular,2026-03-02
+C-00414,Laiba Shah,laiba.shah414@mail.com,Female,55+,Loyalty Member,2024-05-07
+C-00125,Kamran Qureshi,kamran.qureshi125@mail.com,Male,45-54,Loyalty Member,2024-12-19
+C-00209,Usman Mirza,usman.mirza209@mail.com,Male,18-24,Wholesale,2026-04-19
+C-00059,Maryam Aslam,maryam.aslam59@mail.com,Female,25-34,Loyalty Member,2026-02-10
+C-00566,Hamza Javed,hamza.javed566@mail.com,Male,18-24,Loyalty Member,2025-06-29
+C-00122,Rabia Javed,rabia.javed122@mail.com,Female,45-54,Loyalty Member,2026-05-23
+C-00151,Hamza Rana,hamza.rana151@mail.com,Male,18-24,Wholesale,2024-10-10
+C-00218,Sidra Sheikh,sidra.sheikh218@mail.com,Female,55+,Regular,2026-03-17
+C-00541,  Ahmed Iqbal ,ahmed.iqbal541@mail.com,Male,,Regular,2025-09-15
+C-00298,Areeba Qureshi,areeba.qureshi298@mail.com,Female,25-34,Loyalty Member,2025-09-25
+C-00192,HAMZA QURESHI,new.mail@mail.com,Male,55+,loyalty member,2024-11-23
+C-00253,  Laiba Abbasi ,laiba.abbasi253@mail.com,Female,55+, Regular ,2024-08-22
+C-00237,Fahad Iqbal,fahad.iqbal237@mail.com,Male,55+,Regular,2024-09-08
+C-00485,Fahad Ahmed,fahad.ahmed485@mail.com,Male,25-34,Regular,2024-01-12
+C-00054,Waqas Hussain,waqas.hussain54@mail.com,Male,25-34,Regular,2024-01-10
+C-00238,  Maryam Malik ,maryam.malik238@mail.com,Female,35-44,Regular,2023-12-23
+C-00562,Hassan Nawaz,hassan.nawaz562@mail.com,Male,25-34,Regular,2026-01-25
+C-00286,Noor Malik,,Female,35-44,Loyalty Member,2023-10-09
+C-00056,Hassan Siddiqui,hassan.siddiqui56@mail.com,Male,25-34,Regular,2026-01-03
+C-00398,Zainab Abbasi,zainab.abbasi398@mail.com,Female,,regular,2024-11-01
+C-00471,Laiba Malik,laiba.malik471@mail.com,Female,18-24,Loyalty Member,2024-02-19
+C-00548,Sidra Qureshi,sidra.qureshi548@mail.com,Female,35-44,Regular,2024-10-19
+C-00393,Danish Sheikh,danish.sheikh393@mail.com,Male,35-44,Regular,2025-01-17
+C-00404,Ahmed Iqbal,ahmed.iqbal404@mail.com,Male,18-24,Regular,2024-07-17
+C-00464,Zain Rana,zain.rana464@mail.com,Male,18-24,Regular,2025-05-23
+C-00195,Ahmed Butt,ahmed.butt195@mail.com,Male,45-54,Wholesale,2025-02-19
+C-00193,Haris Chaudhry,haris.chaudhry193@mail.com,Male,18-24,Loyalty Member,2025-10-18
+C-00241,Maryam Sheikh,maryam.sheikh241@mail.com,Female,45-54,Loyalty Member,2024-10-13
+C-00575,Noor Aslam,noor.aslam575@mail.com,Female,18-24,Wholesale,2026-01-10
+C-00109,Zainab Butt,zainab.butt109@mail.com,male,35-44,Loyalty Member,2025-02-06
+C-00307,  Zain Sheikh ,zain.sheikh307@mail.com,Male,25-34,regular,2026-02-12
+C-00229,Sana Mirza,sana.mirza229@mail.com,Female,55+,Wholesale,2025-07-30
+C-00244,Bilal Qureshi,bilal.qureshi244@mail.com,Male,55+,Regular,2025-12-31
+C-00488,Hina Aslam,hina.aslam488@mail.com,Female,55+,Regular,2023-10-06
+C-00373,Saad Aslam,saad.aslam373@mail.com,Male,25-34,Wholesale,2024-07-02
+C-00102,Usman Mirza,usman.mirza102@mail.com,Male,25-34,Regular,2024-06-24
+C-00077,  Noor Khan ,noor.khan77@mail.com,Female,55+,Regular,2025-02-03
+C-00057,Hira Nawaz,hira.nawaz57@mail.com,Female,18-24,Wholesale,2023-12-18
+C-00076,  Hassan Javed ,hassan.javed76@mail.com,Male,45-54,Wholesale,2025-02-09
+C-00343,Bilal Javed,bilal.javed343@mail.com,Male,35-44, Loyalty Member ,2023-10-18
+C-00181,Usman Raza,usman.raza181@mail.com,Male,35-44,Regular,2025-08-29
+C-00247,  Fatima Rana ,fatima.rana247@mail.com,Female,55+,Loyalty Member,2025-02-02
+C-00093,Rabia Qureshi,rabia.qureshi93@mail.com,Female,25-34,Wholesale,2024-11-28
+C-00011,Rabia Ahmed,rabia.ahmed11@mail.com,M,45-54,Regular,2025-12-27
+C-00484,Waqas Bhatti,waqas.bhatti484@mail.com,Male,25-34,Wholesale,2025-07-18
+C-00171,Hira Siddiqui,hira.siddiqui171@mail.com,female,25-34,Regular,2025-02-17
+C-00026,Maryam Rana,maryam.rana26@mail.com,male,25-34,Regular,2025-08-26
+C-00017,  Hassan Abbasi ,hassan.abbasi17@mail.com,Male,25-34,Wholesale,2025-05-28
+C-00443,  Fahad Abbasi ,fahad.abbasi443@mail.com,Male,25-34,Regular,2026-04-28
+C-00340,  Kamran Raza ,kamran.raza340@mail.com,FEMALE,55+,Loyalty Member,2024-05-28
+C-00296,MARYAM MALIK,new.maryam.malik296@mail.com,Female,55+,Wholesale,2024-01-21
+C-00156,Talha Javed,talha.javed156@mail.com,Male,35-44,Regular,2024-04-09
+C-00423,Bilal Farooq,bilal.farooq423@mail.com,Male,35-44,Regular,2025-06-21
+C-00309,Iqra Qureshi,iqra.qureshi309@mail.com,Female,45-54, Loyalty Member ,2025-10-26
+C-00363,Haris Shah,haris.shah363@mail.com,Male,25-34, Regular ,2026-04-07
+C-00013,Sidra Bhatti,sidra.bhatti13@mail.com,Female,45-54, Regular ,2025-06-10
+C-00100,Ahmed Malik,ahmed.malik100@mail.com,Male,25-34,Wholesale,2025-11-06
+C-00188,HAMZA BUTT,new.hamza.butt188@mail.com,Male,25-34,Loyalty Member,2024-10-04
+C-00167,  Sana Javed ,sana.javed167@mail.com,Female,18-24,Regular,2023-07-06
+C-00577,Maryam Ahmed,maryam.ahmed577@mail.com,female,55+,Regular,2024-08-27
+C-00225,Amna Aslam,amna.aslam225@mail.com,Female,25-34,Loyalty Member,2025-05-07
+C-00004,Ahmed Khan,ahmed.khan4@mail.com,Male,25-34,Regular,2023-12-09
+C-00406,Zainab Nawaz,zainab.nawaz406@mail.com,Female,25-34,regular,2026-01-25
+C-00323,SAAD AHMED,new.saad.ahmed323@mail.com,Male,35-44,Loyalty Member,2024-08-25
+C-00593,Haris Shah,haris.shah593@mail.com,Male,18-24,Regular,2024-06-02
+C-00087,Sidra Abbasi,sidra.abbasi87@mail.com,Female,35-44,REGULAR,N/A
+C-00187,Usman Chaudhry,usman.chaudhry187@mail.com,Male,25-34,Wholesale,2024-08-06
+C-00066,Ahmed Farooq,ahmed.farooq66@mail.com,Male,25-34,Regular,2023-11-12
+C-00194,Fahad Sheikh,fahad.sheikh194@mail.com,Male,25-34,Regular,2024-11-26
+C-00477,Ayesha Butt,ayesha.butt477@mail.com,Female,45-54,Wholesale,2025-08-13
+C-00589,TALHA BHATTI,new.talha.bhatti589@mail.com,Male,55+,Loyalty Member,2026-02-14
+C-00092,Waqas Hussain,waqas.hussain92@mail.com,Male,55+, Wholesale ,2025-09-21
+C-00115,Haris Iqbal,haris.iqbal115@mail.com,Male,25-34,Regular,2024-09-03
+C-00019,Fahad Butt,fahad.butt19@mail.com,Male,35-44,Regular,2026-01-02
+C-00042,Mahnoor Bhatti,mahnoor.bhatti42@mail.com,Female,25-34,Loyalty Member,2025-10-14
+C-00132,Zainab Rana,zainab.rana132@mail.com,Female,45-54,Loyalty Member,2023-07-11
+C-00295,Noor Iqbal,noor.iqbal295@mail.com,Female,45-54,Loyalty Member,2025-12-16
+C-00202,Kamran Butt,kamran.butt202@mail.com,Male,,Wholesale,2026-01-19
+C-00299,Zainab Shah,zainab.shah299@mail.com,Female,25-34,LOYALTY MEMBER,2023-12-12
+C-00091,Rabia Butt,rabia.butt91@mail.com,Female,18-24,Regular,2025-09-22
+C-00391,Hira Raza,hira.raza391@mail.com,Female,35-44,Loyalty Member,2024-01-14
+C-00473,Laiba Farooq,laiba.farooq473@mail.com,Female,45-54,Regular,2025-08-31
+C-00088,  Ahmed Iqbal ,ahmed.iqbal88@mail.com,female,18-24,Regular,2025-06-16
+C-00496,Hina Siddiqui,hina.siddiqui496@mail.com,Female,18-24,LOYALTY MEMBER,2025-01-10
+C-00337,Usman Farooq,usman.farooq337@mail.com,Male,25-34,Regular,2026-04-10
+C-00165,Hamza Qureshi,hamza.qureshi165@mail.com,Male,35-44,Loyalty Member,2025-09-10
+C-00572,Hina Qureshi,hina.qureshi572@mail.com,male,35-44,Regular,2024-07-23
+C-00410,Hassan Aslam,hassan.aslam410@mail.com,FEMALE,25-34,Loyalty Member,2026-03-15
+C-00148,  Waqas Malik ,waqas.malik148@mail.com,Male,25-34,Regular,2024-05-01
+C-00535,Sana Raza,sana.raza535@mail.com,Female,35-44,Regular,2026-04-11
+C-00248,Danish Siddiqui,danish.siddiqui248@mail.com,Male,25-34,Regular,2025-12-22
+C-00222,Mahnoor Raza,mahnoor.raza222@mail.com,Female,35-44,Regular,2024-12-17
+C-00175,Usman Chaudhry,usman.chaudhry175@mail.com,Male,25-34,Regular,2025-01-27
+C-00364,Fatima Iqbal,fatima.iqbal364@mail.com,male,25-34,Regular,2024-06-04
+C-00456,Zainab Sheikh,zainab.sheikh456@mail.com,Female,45-54,LOYALTY MEMBER,2025-06-28
+C-00424,Talha Siddiqui,talha.siddiqui424@mail.com,Male,18-24, Regular ,2024-10-24
+C-00549,Bilal Siddiqui,bilal.siddiqui549@mail.com,Male,55+,Regular,2024-06-21
+C-00174,Sana Siddiqui,sana.siddiqui174@mail.com,Female,45-54, Regular ,2026-05-10
+C-00144,  Hamza Ahmed ,hamza.ahmed144@mail.com,Male,25-34,Regular,2023-08-03
+C-00453,Hamza Ahmed,hamza.ahmed453@mail.com,Male,35-44,Loyalty Member,2024-04-19
+C-00192,Hamza Qureshi,,Male,55+,loyalty member,2024-11-23
+C-00472,Fatima Hussain,fatima.hussain472@mail.com,Female,25-34,Regular,2025-06-18
+C-00144,HAMZA AHMED,new.hamza.ahmed144@mail.com,Male,25-34,Regular,2023-08-03
+C-00325,Kamran Sheikh,kamran.sheikh325@mail.com,Male,25-34,regular,2024-11-05
+C-00366,Bilal Raza,bilal.raza366@mail.com,Male,18-24,Loyalty Member,2025-01-26
+C-00597,Fahad Qureshi,fahad.qureshi597@mail.com,Male,55+,Regular,2025-02-04
+C-00221,Hina Bhatti,hina.bhatti221@mail.com,Female,55+,Regular,2026-04-06
+C-00153,Fatima Nawaz,fatima.nawaz153@mail.com,Female,55+,Regular,2025-10-25
+C-00164,Danish Siddiqui,danish.siddiqui164@mail.com,Male,45-54,Regular,2023-06-21
+C-00232,Noor Javed,noor.javed232@mail.com,Female,55+,Regular,2023-07-02
+C-00551,HAMZA MALIK,new.hamza.malik551@mail.com,Male,35-44,Loyalty Member,2023-08-08
+C-00396,Noor Nawaz,noor.nawaz396@mail.com,Female,45-54,Loyalty Member,2026-04-05
+C-00145,SIDRA KHAN,new.sidra.khan145@mail.com,Female,25-34,Regular,2024-04-08
+C-00430,Hira Raza,hira.raza430@mail.com,Female,55+,Regular,2025-03-16
+C-00267,Talha Raza,talha.raza267@mail.com,Male,55+,Regular,2026-01-06
+C-00067,Laiba Raza,laiba.raza67@mail.com,Female,35-44,Regular,2024-09-24
+C-00205,Maryam Hussain,maryam.hussain205@mail.com,Female,55+,Regular,2025-03-19
+C-00524,HIRA IQBAL,new.hira.iqbal524@mail.com,Female,35-44,Wholesale,2024-04-23
+C-00536,Hira Sheikh,hira.sheikh536@mail.com,Female,35-44,Loyalty Member,2026-04-17
+C-00509,Fahad Nawaz,fahad.nawaz509@mail.com,Male,25-34,Loyalty Member,2023-08-16
+C-00182,Iqra Ahmed,iqra.ahmed182@mail.com,Female,25-34,Loyalty Member,2024-04-06
+C-00379,Kamran Butt,kamran.butt379@mail.com,Male,35-44,Loyalty Member,2024-12-10
+C-00428,Danish Aslam,danish.aslam428@mail.com,Male,18-24,Regular,2024-07-14
+C-00230,Bilal Aslam,bilal.aslam230@mail.com,Male,25-34,Loyalty Member,2023-08-15
+C-00101,  Rabia Hussain ,rabia.hussain101@mail.com,male,45-54,Loyalty Member,2025-11-10
+C-00487,  Danish Chaudhry ,danish.chaudhry487@mail.com,Male,45-54,Loyalty Member,2025-09-18
+C-00564,Maryam Shah,maryam.shah564@mail.com,Female,25-34,Loyalty Member,2026-05-21
+C-00025,Fahad Nawaz,fahad.nawaz25@mail.com,Male,55+,Loyalty Member,2024-11-20
+C-00149,Iqra Khan,iqra.khan149@mail.com,Female,45-54,Wholesale,2025-02-28
+C-00022,Zainab Siddiqui,zainab.siddiqui22@mail.com,Female,25-34,Loyalty Member,2023-10-14
+C-00573,Amna Hussain,amna.hussain573@mail.com,Female,35-44,LOYALTY MEMBER,2024-12-31
+C-00492,Haris Siddiqui,haris.siddiqui492@mail.com,Male,25-34,Regular,2026-02-16
+C-00395,Hassan Raza,hassan.raza395@mail.com,Male,25-34,regular,2026-05-08
+C-00516,Hira Siddiqui,hira.siddiqui516@mail.com,Female,18-24,Wholesale,2024-06-16
+C-00186,Saad Rana,saad.rana186@mail.com,Male,45-54,Wholesale,2023-10-02
+C-00219,Noor Siddiqui,noor.siddiqui219@mail.com,Female,35-44,Loyalty Member,2025-09-28
+C-00558,Omar Ahmed,omar.ahmed558@mail.com,Male,55+,Wholesale,2024-05-24
+C-00390,  Ahmed Qureshi ,ahmed.qureshi390@mail.com,Male,55+,LOYALTY MEMBER,2025-10-07
+C-00486,Hira Hussain,hira.hussain486@mail.com,Female,25-34,Loyalty Member,2025-10-05
+C-00283,Haris Khan,haris.khan283@mail.com,Male,18-24,REGULAR,2024-02-25
+C-00258,Rabia Nawaz,rabia.nawaz258@mail.com,Female,45-54,LOYALTY MEMBER,2025-06-19
+C-00240,Rabia Ahmed,rabia.ahmed240@mail.com,Female,25-34,Regular,2025-01-21
+C-00525,Noor Iqbal,noor.iqbal525@mail.com,Female,55+,REGULAR,2024-01-27
+C-00383,HAMZA ABBASI,new.hamza.abbasi383@mail.com,Male,18-24,Regular,2024-09-02
+C-00290,Ali Ahmed,ali.ahmed290@mail.com,Male,35-44,Loyalty Member,2026-02-05
+C-00474,Ahmed Ahmed,ahmed.ahmed474@mail.com,Male,55+,Regular,2024-03-07
+C-00323,  Saad Ahmed ,saad.ahmed323@mail.com,Male,35-44,Loyalty Member,2024-08-25
+C-00381,Areeba Abbasi,areeba.abbasi381@mail.com,Female,35-44,Regular,2023-07-25
+C-00169,Iqra Abbasi,iqra.abbasi169@mail.com,Female,45-54,Loyalty Member,2026-01-25
+C-00582,Talha Aslam,talha.aslam582@mail.com,Male,25-34,Wholesale,2025-12-30
+C-00279,Fahad Sheikh,fahad.sheikh279@mail.com,Male,18-24,Loyalty Member,2024-07-25
+C-00208,Hira Raza,hira.raza208@mail.com,Female,25-34,Regular,2025-03-06
+C-00350,Noor Sheikh,noor.sheikh350@mail.com,Female,35-44,Regular,2023-10-05
+C-00495,Sana Hussain,sana.hussain495@mail.com,MALE,25-34,Loyalty Member,2026-02-07
+C-00517,Ayesha Iqbal,ayesha.iqbal517@mail.com,Female,25-34,Loyalty Member,2024-06-30
+C-00592,Amna Iqbal,,Female,45-54,Wholesale,2023-07-06
+C-00264,Fatima Siddiqui,fatima.siddiqui264@mail.com,Female,55+,Regular,2025-07-20
+C-00259,Hina Siddiqui,hina.siddiqui259@mail.com,Female,25-34,Loyalty Member,2024-05-02
+C-00317,Kamran Rana,kamran.rana317@mail.com,Male,18-24,Regular,2023-11-21
+C-00273,Sidra Aslam,sidra.aslam273@mail.com,Female,25-34,Regular,2025-09-13
+C-00252,Mahnoor Ahmed,mahnoor.ahmed252@mail.com,Female,25-34,Regular,2026-03-14
+C-00214,Sana Malik,sana.malik214@mail.com,Female,55+,Loyalty Member,2023-07-30
+C-00555,Fahad Rana,fahad.rana555@mail.com,Male,45-54,Loyalty Member,2025-03-15
+C-00348,Iqra Nawaz,iqra.nawaz348@mail.com,Female,35-44,Loyalty Member,2023-08-24
+C-00511,Hassan Iqbal,hassan.iqbal511@mail.com,Male,18-24,Regular,2023-08-16
+C-00389,Kamran Iqbal,kamran.iqbal389@mail.com,Male,25-34,Regular,2024-09-29
+,Walk In Customer,,Male,25-34,Regular,2025-01-01
+C-00207,Sana Iqbal,sana.iqbal207@mail.com,Female,45-54,Regular,2025-08-29
+C-00119,Fahad Sheikh,fahad.sheikh119@mail.com,FEMALE,18-24,Loyalty Member,2023-06-12
+C-00063,Saad Chaudhry,saad.chaudhry63@mail.com,Male,45-54,Wholesale,2023-09-28
+C-00160,Omar Javed,omar.javed160@mail.com,Male,35-44,Loyalty Member,2024-10-12
+C-00581,  Haris Hussain ,haris.hussain581@mail.com,Male,35-44,Wholesale,2024-11-09
+C-00407,  Kamran Chaudhry ,kamran.chaudhry407@mail.com,Male,25-34,Regular,2025-01-06
+C-00416,Laiba Shah,laiba.shah416@mail.com,Female,55+,Regular,2024-12-14
+C-00145,Sidra Khan,sidra.khan145@mail.com,Female,25-34,Regular,2024-04-08
+C-00075,Areeba Raza,areeba.raza75@mail.com,Female,25-34,Regular,2024-10-13
+C-00400,Haris Malik,haris.malik400@mail.com,Male,25-34,Regular,2025-04-11
+C-00095,Zain Javed,zain.javed95@mail.com,Male,25-34,Regular,2025-05-17
+C-00530,Mahnoor Raza,mahnoor.raza530@mail.com,Female,35-44,Loyalty Member,2026-05-12
+C-00263,Ali Siddiqui,ali.siddiqui263@mail.com,Male,18-24,Loyalty Member,2026-06-03
+C-00249,Zainab Aslam,zainab.aslam249@mail.com,Female,25-34, Loyalty Member ,2024-01-05
+C-00334,Fahad Shah,fahad.shah334@mail.com,Male,,Regular,2025-08-29
+C-00294,Iqra Nawaz,iqra.nawaz294@mail.com,Female,35-44,Loyalty Member,2025-03-27
+C-00324,Ahmed Khan,ahmed.khan324@mail.com,Male,25-34,Regular,2024-07-23
+C-00351,Rabia Hussain,rabia.hussain351@mail.com,Female,45-54,Wholesale,2023-11-20
+C-00073,Ali Javed,ali.javed73@mail.com,Male,18-24,Loyalty Member,2023-12-22
+C-00467,Waqas Abbasi,waqas.abbasi467@mail.com,female,25-34,Regular,2025-09-03
+C-00018,Omar Raza,omar.raza18@mail.com,Male,45-54,Wholesale,2024-05-16
+C-00103,Danish Shah,danish.shah103@mail.com,Male,45-54,Loyalty Member,2023-06-04
+C-00012,Hina Mirza,hina.mirza12@mail.com,Female,45-54,Regular,2023-11-09
+C-00418,Haris Butt,haris.butt418@mail.com,Male,25-34,loyalty member,2023-08-03
+C-00445,Saad Bhatti,saad.bhatti445@mail.com,Male,18-24,Loyalty Member,2026-05-28
+C-00250,Iqra Abbasi,iqra.abbasi250@mail.com,Female,55+,Regular,2025-01-26
+C-00251,Ali Mirza,ali.mirza251@mail.com,Male,18-24,Loyalty Member,2024-12-14
+C-00377,Talha Aslam,talha.aslam377@mail.com,Male,45-54,Regular,2025-06-30
+C-00600,  Ali Butt ,ali.butt600@mail.com,Male,35-44,Loyalty Member,2023-11-17
+C-00481,Saad Khan,saad.khan481@mail.com,Male,25-34,Wholesale,2026-01-27
+C-00465,Saad Aslam,saad.aslam465@mail.com,Male,25-34,Loyalty Member,2026-01-19
+C-00529,Sidra Chaudhry,sidra.chaudhry529@mail.com,Female,55+,Loyalty Member,2024-10-19
+C-00415,Fatima Javed,fatima.javed415@mail.com,Female,55+,Regular,2023-08-26
+C-00020,Hina Nawaz,hina.nawaz20@mail.com,Female,55+,Regular,2024-08-23
+C-00569,Rabia Rana,rabia.rana569@mail.com,Female,35-44,REGULAR,2024-08-18
+C-00070,Iqra Rana,iqra.rana70@mail.com,Female,25-34,Regular,2026-05-06
+C-00489,Noor Chaudhry,noor.chaudhry489@mail.com,Female,55+,Loyalty Member,2025-03-27
+C-00447,Laiba Bhatti,laiba.bhatti447@mail.com,Female,45-54,Regular,2025-04-22
+C-00235,Mahnoor Hussain,mahnoor.hussain235@mail.com,Female,35-44,Regular,2026-05-28
+C-00107,Maryam Hussain,maryam.hussain107@mail.com,Female,55+,Regular,2025-09-02
+C-00427,Danish Javed,danish.javed427@mail.com,Male,45-54,Regular,2024-08-13
+C-00083,Sidra Siddiqui,sidra.siddiqui83@mail.com,Female,18-24,Regular,2023-08-30
+C-00362,Sidra Sheikh,sidra.sheikh362@mail.com,Female,18-24,Wholesale,2026-05-14
+C-00108,Amna Sheikh,amna.sheikh108@mail.com,female,35-44,Wholesale,2024-06-27
+C-00314,Waqas Khan,waqas.khan314@mail.com,Male,55+,Loyalty Member,2023-12-05
+C-00190,Danish Bhatti,danish.bhatti190@mail.com,Male,25-34,Regular,2026-01-18
+C-00183,Saad Raza,saad.raza183@mail.com,Male,18-24,Loyalty Member,2024-10-21
+C-00559,Maryam Nawaz,maryam.nawaz559@mail.com,Female,18-24,Regular,2026-03-12
+C-00328,Fahad Farooq,fahad.farooq328@mail.com,Male,18-24,Loyalty Member,2025-05-26
+C-00388,Sidra Sheikh,sidra.sheikh388@mail.com,Female,35-44,Regular,2026-05-16
+,Walk In Customer,,Male,25-34,Regular,2025-01-01
+C-00281,Kamran Sheikh,kamran.sheikh281@mail.com,Male,25-34,Regular,2023-06-06
+C-00246,Haris Nawaz,haris.nawaz246@mail.com,Male,18-24,Loyalty Member,2024-04-19
+C-00239,Danish Iqbal,danish.iqbal239@mail.com,Male,18-24,Regular,2023-07-30
+C-00437,Sidra Rana,sidra.rana437@mail.com,Female,25-34,Regular,2023-10-30
+C-00039,Fahad Ahmed,fahad.ahmed39@mail.com,Male,45-54,Regular,2024-10-06
+C-00521,Zainab Qureshi,zainab.qureshi521@mail.com,Female,25-34,Regular,2025-12-01
+C-00099,Usman Siddiqui,usman.siddiqui99@mail.com,Male,45-54,Regular,2024-05-31
+C-00094,Usman Mirza,usman.mirza94@mail.com,Male,35-44,regular,2023-08-19
+C-00345,Fatima Farooq,fatima.farooq345@mail.com,Female,25-34,Loyalty Member,2023-10-30
+C-00024,Zainab Javed,zainab.javed24@mail.com,Female,25-34,Regular,2024-03-19
+C-00306,Saad Abbasi,saad.abbasi306@mail.com,Male,45-54,Loyalty Member,2023-12-30
+C-00589,Talha Bhatti,talha.bhatti589@mail.com,Male,55+,Loyalty Member,2026-02-14
+C-00023,Areeba Hussain,areeba.hussain23@mail.com,Female,55+,Loyalty Member,2024-08-09
+C-00002,Fahad Qureshi,fahad.qureshi2@mail.com,Male,55+,Regular,2024-03-12
+C-00371,Fatima Qureshi,fatima.qureshi371@mail.com,Female,45-54,Regular,2025-11-26
+C-00596,Hamza Abbasi,hamza.abbasi596@mail.com,Male,35-44,Loyalty Member,2025-09-09
+C-00303,  Fatima Sheikh ,fatima.sheikh303@mail.com,female,45-54,Loyalty Member,2023-10-01
+C-00433,Usman Chaudhry,usman.chaudhry433@mail.com,Male,25-34,Loyalty Member,2024-03-11
+C-00131,Hira Shah,hira.shah131@mail.com,Female,25-34,Loyalty Member,2023-10-06
+C-00545,Usman Butt,usman.butt545@mail.com,Male,35-44,Loyalty Member,2026-06-05
+C-00431,Danish Raza,danish.raza431@mail.com,Male,25-34,Regular,2025-01-15
+C-00565,Fahad Siddiqui,fahad.siddiqui565@mail.com,Male,25-34,Wholesale,2024-07-21
+C-00567,  Waqas Chaudhry ,waqas.chaudhry567@mail.com,Male,25-34,Loyalty Member,2023-09-14
+C-00380,Bilal Shah,bilal.shah380@mail.com,Male,25-34,Loyalty Member,2023-12-05
+C-00534,Hira Malik,hira.malik534@mail.com,M,55+,LOYALTY MEMBER,2024-07-25
+C-00318,Hassan Bhatti,hassan.bhatti318@mail.com,Male,55+,Regular,2023-09-10
+C-00532,Ahmed Nawaz,ahmed.nawaz532@mail.com,M,25-34,Loyalty Member,2026-04-01
+C-00293,Hamza Sheikh,hamza.sheikh293@mail.com,Male,45-54,Wholesale,2024-12-15
+C-00458,Omar Javed,omar.javed458@mail.com,Male,25-34,Regular,2024-10-20
+C-00339,Omar Chaudhry,omar.chaudhry339@mail.com,Male,45-54,Regular,2024-05-21
+C-00033,Maryam Butt,maryam.butt33@mail.com,Female,18-24,Wholesale,2025-12-16
+C-00269,Ahmed Iqbal,ahmed.iqbal269@mail.com,Male,,Regular,2026-03-05
+,Walk In Customer,,Male,25-34,Regular,2025-01-01
+C-00392,Amna Khan,amna.khan392@mail.com,Female,45-54,Regular,2026-04-21
+C-00191,FAHAD IQBAL,new.fahad.iqbal191@mail.com,Male,55+,Loyalty Member,2024-12-31
+C-00016,Zainab Siddiqui,zainab.siddiqui16@mail.com,Female,55+,Regular,2025-12-15
+C-00554,  Kamran Ahmed ,kamran.ahmed554@mail.com,Male,45-54,Regular,2024-03-13
+C-00138,Iqra Khan,iqra.khan138@mail.com,Female,55+,Loyalty Member,N/A
+C-00526,Fatima Bhatti,fatima.bhatti526@mail.com,Female,25-34,Regular,2024-08-26
+C-00479,Amna Aslam,amna.aslam479@mail.com,Female,35-44,Regular,2025-02-03
+C-00086,Usman Raza,usman.raza86@mail.com,Male,45-54,Regular,2024-04-01
+C-00133,Sana Khan,sana.khan133@mail.com,Female,25-34,Loyalty Member,2025-05-21
+C-00265,Usman Qureshi,usman.qureshi265@mail.com,M,18-24,Loyalty Member,2026-01-21
+C-00268,Talha Shah,talha.shah268@mail.com,Male,25-34,Regular,2024-01-25
+C-00178,Saad Sheikh,saad.sheikh178@mail.com,Male,18-24,Regular,2026-03-02
+C-00255,Areeba Ahmed,areeba.ahmed255@mail.com,female,35-44,Regular,2025-02-22
+C-00084,Kamran Sheikh,kamran.sheikh84@mail.com,Male,25-34,Wholesale,2024-11-18
+C-00006,Danish Nawaz,danish.nawaz6@mail.com,Male,25-34,LOYALTY MEMBER,2025-10-07
+C-00121,AMNA QURESHI,new.amna.qureshi121@mail.com,Female,35-44,Regular,2024-02-04
+C-00355,  Kamran Hussain ,kamran.hussain355@mail.com,Male,55+,Wholesale,2023-09-16
+C-00446,Talha Butt,talha.butt446@mail.com,Male,25-34, Wholesale ,2024-04-11
+C-00393,DANISH SHEIKH,new.danish.sheikh393@mail.com,Male,35-44,Regular,2025-01-17
+C-00310,Laiba Nawaz,laiba.nawaz310@mail.com,Female,45-54,Wholesale,2023-07-24
+C-00029,Rabia Shah,rabia.shah29@mail.com,Female,35-44,Loyalty Member,2023-10-09
+C-00233,Maryam Sheikh,maryam.sheikh233@mail.com,Female,35-44,Regular,2023-11-01
+C-00060,Areeba Ahmed,areeba.ahmed60@mail.com,Female,35-44,Regular,2024-05-03
+C-00223,Hina Farooq,hina.farooq223@mail.com,Female,18-24,Regular,2024-11-29
+C-00401,Fatima Nawaz,fatima.nawaz401@mail.com,F,55+,Regular,2025-04-24
+C-00126,Talha Qureshi,talha.qureshi126@mail.com,Male,35-44,Regular,2024-12-14
+C-00030,Laiba Javed,laiba.javed30@mail.com,Female,25-34,Loyalty Member,2026-05-19
+C-00365,  Kamran Aslam ,kamran.aslam365@mail.com,Male,25-34,Regular,2024-06-28
+C-00599,Zainab Nawaz,zainab.nawaz599@mail.com,Female,18-24,Wholesale,2026-01-30
+C-00320,Hira Shah,hira.shah320@mail.com,FEMALE,25-34,Loyalty Member,2024-12-11
+C-00583,Rabia Abbasi,rabia.abbasi583@mail.com,Female,25-34,Wholesale,2024-05-12
+C-00342,Talha Bhatti,talha.bhatti342@mail.com,Male,55+,Regular,2025-03-23
+C-00369,Bilal Butt,bilal.butt369@mail.com,Male,55+, Loyalty Member ,2024-06-05
+C-00168,Fahad Mirza,fahad.mirza168@mail.com,Male,25-34,Wholesale,2024-10-11
+C-00326,Usman Khan,usman.khan326@mail.com,Male,55+,Loyalty Member,2026-03-15
+C-00080,Laiba Chaudhry,laiba.chaudhry80@mail.com,Female,25-34,Wholesale,2025-05-03
+C-00586,Ahmed Khan,ahmed.khan586@mail.com,Male,25-34,wholesale,2025-09-22
+C-00262,Haris Mirza,haris.mirza262@mail.com,Male,18-24,Loyalty Member,2025-06-19
+C-00041,Bilal Aslam,bilal.aslam41@mail.com,Male,25-34,Loyalty Member,2024-05-04
+C-00159,Iqra Siddiqui,iqra.siddiqui159@mail.com,Female,25-34,Regular,2025-03-22
+C-00313,HASSAN SHEIKH,new.hassan.sheikh313@mail.com,Male,18-24,Regular,2025-08-29
+C-00571,Hina Chaudhry,hina.chaudhry571@mail.com,Female,55+,LOYALTY MEMBER,2024-01-27
+C-00079,  Waqas Nawaz ,waqas.nawaz79@mail.com,Male,25-34, Regular ,2024-04-14
+C-00405,Areeba Ahmed,areeba.ahmed405@mail.com,Female,25-34,Loyalty Member,2025-03-08
+C-00543,Mahnoor Mirza,mahnoor.mirza543@mail.com,Female,18-24,Wholesale,2025-07-09
+C-00520,Sana Hussain,sana.hussain520@mail.com,Female,18-24,Regular,2024-10-21
+C-00480,Fatima Hussain,fatima.hussain480@mail.com,Female,35-44,Loyalty Member,2024-01-11
+C-00206,Mahnoor Butt,mahnoor.butt206@mail.com,Female,35-44,Wholesale,2025-04-06
+C-00444,Omar Chaudhry,omar.chaudhry444@mail.com,Male,25-34,Wholesale,2024-12-14
+C-00213,  Amna Sheikh ,amna.sheikh213@mail.com,Female,35-44,Wholesale,2025-01-10
+C-00257,Ayesha Shah,ayesha.shah257@mail.com,Female,25-34,Regular,2024-05-25
+C-00409,Maryam Mirza,maryam.mirza409@mail.com,Female,35-44,Regular,2025-11-17
+C-00147,Omar Abbasi,omar.abbasi147@mail.com,Male,45-54,Loyalty Member,2024-05-09
+C-00260,Rabia Iqbal,rabia.iqbal260@mail.com,Female,18-24,Loyalty Member,2025-04-24
+C-00204,Talha Aslam,talha.aslam204@mail.com,Male,35-44,Regular,2023-12-04
+C-00031,  Mahnoor Khan ,mahnoor.khan31@mail.com,Female,55+,Loyalty Member,2024-01-21
+C-00021,Sidra Ahmed,sidra.ahmed21@mail.com,Female,18-24,Regular,2024-09-12
+C-00111,Maryam Rana,maryam.rana111@mail.com,Female,35-44,Loyalty Member,2025-03-21
+C-00135,Omar Shah,omar.shah135@mail.com,Male,18-24,Loyalty Member,2026-02-19
+C-00008,Maryam Hussain,maryam.hussain8@mail.com,Female,25-34,Regular,2024-12-21
+C-00035,Hina Malik,hina.malik35@mail.com,Female,55+,Loyalty Member,2025-02-01
+C-00301,Hina Aslam,hina.aslam301@mail.com,Female,18-24,Regular,2023-10-16
+C-00506,Hina Butt,hina.butt506@mail.com,Female,55+,Loyalty Member,2025-09-11
+C-00038,Sana Khan,sana.khan38@mail.com,Female,25-34,Regular,2024-01-16
+C-00242,Iqra Butt,iqra.butt242@mail.com,Female,25-34,Regular,2024-05-14
+C-00089,Zain Qureshi,zain.qureshi89@mail.com,Male,25-34,Loyalty Member,2023-12-28
+C-00280,  Zain Rana ,zain.rana280@mail.com,Male,25-34,Regular,2024-08-16
+C-00188,Hamza Butt,hamza.butt188@mail.com,Male,25-34,Loyalty Member,2024-10-04
+C-00216,Ali Nawaz,ali.nawaz216@mail.com,Male,18-24,Regular,2025-09-13
+C-00292,Hamza Raza,hamza.raza292@mail.com,Male,45-54,Regular,2025-03-21
+C-00199,Ahmed Shah,ahmed.shah199@mail.com,Male,45-54,Regular,2025-03-22
+C-00442,Saad Butt,saad.butt442@mail.com,Male,25-34,WHOLESALE,2024-04-27
+C-00163,Fatima Siddiqui,fatima.siddiqui163@mail.com,Female,25-34,Loyalty Member,2025-04-28
+C-00482,Rabia Rana,rabia.rana482@mail.com,Female,55+,Regular,2024-09-09
+C-00007,Iqra Siddiqui,iqra.siddiqui7@mail.com,Female,25-34, Wholesale ,2023-06-14
+C-00271,Fatima Nawaz,fatima.nawaz271@mail.com,Female,45-54,Wholesale,2025-10-06
+C-00503,  Haris Farooq ,haris.farooq503@mail.com,Male,55+,Regular,2024-09-05
+C-00584,Amna Aslam,amna.aslam584@mail.com,Female,45-54,Wholesale,2024-06-11
+C-00327,Hassan Sheikh,hassan.sheikh327@mail.com,Male,45-54,Wholesale,2025-07-18
+C-00550,Ahmed Shah,,Male,25-34,Regular,2023-07-03
+C-00124,Hira Butt,hira.butt124@mail.com,Female,35-44,Regular,2026-01-28
+C-00058,Amna Khan,amna.khan58@mail.com,Female,25-34,Regular,2023-12-09
+C-00198,Amna Aslam,amna.aslam198@mail.com,Female,18-24,Loyalty Member,2025-11-13
+C-00547,Hira Nawaz,hira.nawaz547@mail.com,Female,45-54,Loyalty Member,2025-10-16
+C-00123,Ayesha Javed,ayesha.javed123@mail.com,Female,35-44,Loyalty Member,2026-03-30
+C-00028,Mahnoor Malik,mahnoor.malik28@mail.com,Female,55+,Regular,2024-04-09
+C-00468,Zainab Ahmed,zainab.ahmed468@mail.com,Female,25-34,Loyalty Member,2024-07-03
+C-00152,Kamran Iqbal,kamran.iqbal152@mail.com,Male,45-54,Regular,2024-02-03
+C-00201,Iqra Khan,iqra.khan201@mail.com,Female,45-54, Regular ,2024-12-03
+C-00097,Omar Raza,omar.raza97@mail.com,Male,25-34,Wholesale,2024-12-23
+C-00261,Hamza Sheikh,hamza.sheikh261@mail.com,Male,55+,Wholesale,2024-09-05
+C-00311,Sidra Siddiqui,sidra.siddiqui311@mail.com,Female,25-34,Regular,2023-07-30
+C-00454,Sana Javed,sana.javed454@mail.com,Female,25-34,Loyalty Member,2024-07-22
+C-00106,Waqas Iqbal,waqas.iqbal106@mail.com,Male,25-34, Wholesale ,2026-04-04
+C-00490,Noor Mirza,noor.mirza490@mail.com,Female,25-34,Loyalty Member,2025-03-04
+C-00338,Fatima Sheikh,fatima.sheikh338@mail.com,Female,18-24, Regular ,2024-09-26
+C-00014,Danish Raza,danish.raza14@mail.com,Male,55+,Regular,2023-09-02
+C-00354,Fatima Abbasi,fatima.abbasi354@mail.com,F,35-44,Loyalty Member,2024-12-31
+C-00544,Haris Nawaz,haris.nawaz544@mail.com,Male,55+,Regular,2024-02-28
+C-00312,Danish Iqbal,danish.iqbal312@mail.com,Male,25-34,REGULAR,2025-04-26
+C-00411,Omar Raza,omar.raza411@mail.com,Male,18-24,Loyalty Member,2025-10-17
+C-00383,Hamza Abbasi,hamza.abbasi383@mail.com,Male,18-24,Regular,2024-09-02
+C-00308,Fatima Nawaz,fatima.nawaz308@mail.com,Female,18-24,regular,2025-06-22
+C-00553,Zainab Javed,zainab.javed553@mail.com,Female,45-54,Regular,2024-09-22
+C-00128,Ayesha Nawaz,ayesha.nawaz128@mail.com,Female,25-34,Regular,2023-11-13
+C-00044,  Talha Abbasi ,talha.abbasi44@mail.com,Male,45-54,Loyalty Member,2025-11-14
+C-00519,Hamza Mirza,hamza.mirza519@mail.com,Male,25-34,Regular,2023-12-13
+C-00142,Sidra Raza,sidra.raza142@mail.com,Female,18-24,Wholesale,2026-01-19
+C-00127,Danish Iqbal,danish.iqbal127@mail.com,Male,25-34,Regular,2024-09-23
+C-00399,  Fatima Raza ,,Female,25-34, Wholesale ,2025-05-07
+C-00162,Mahnoor Hussain,mahnoor.hussain162@mail.com,Female,35-44,Regular,2024-06-07
+C-00494,Kamran Iqbal,kamran.iqbal494@mail.com,Male,55+,Wholesale,2024-07-29
+C-00412,Laiba Butt,laiba.butt412@mail.com,Female,25-34,Regular,2025-01-22
+C-00438,Talha Raza,talha.raza438@mail.com,Male,35-44,Wholesale,2025-12-08
+C-00374,Iqra Javed,iqra.javed374@mail.com,Female,25-34,Loyalty Member,2026-01-01
+C-00302,Hamza Shah,hamza.shah302@mail.com,Male,55+,Wholesale,2023-12-15
+C-00505,Sana Malik,sana.malik505@mail.com,Female,18-24,loyalty member,2024-03-08
+C-00542,Kamran Shah,kamran.shah542@mail.com,Male,35-44,Loyalty Member,2025-07-06
+C-00072,Bilal Iqbal,bilal.iqbal72@mail.com,Male,25-34,Regular,2025-12-23
+C-00052,Haris Shah,haris.shah52@mail.com,Male,35-44,Loyalty Member,2025-05-26
+C-00045,Usman Qureshi,usman.qureshi45@mail.com,Male,18-24,Regular,2024-09-03
+C-00112,Hira Chaudhry,hira.chaudhry112@mail.com,Female,35-44,Wholesale,2026-04-12
+C-00227,Mahnoor Chaudhry,mahnoor.chaudhry227@mail.com,FEMALE,45-54,Loyalty Member,2024-10-02
+C-00514,Mahnoor Farooq,mahnoor.farooq514@mail.com,Female,25-34,Regular,2026-01-14
+C-00316,Hassan Abbasi,hassan.abbasi316@mail.com,Male,55+,REGULAR,2025-02-28
+C-00211,Zain Farooq,,Male,45-54,Loyalty Member,2025-06-10
+C-00539,Waqas Chaudhry,waqas.chaudhry539@mail.com,Male,18-24,Loyalty Member,2023-10-28
+C-00384,Hina Malik,hina.malik384@mail.com,FEMALE,25-34,Regular,2025-04-17
+C-00322,Haris Rana,haris.rana322@mail.com,Male,45-54,Wholesale,2026-02-21
+C-00460,Fahad Butt,fahad.butt460@mail.com,Male,45-54,WHOLESALE,2025-04-01
+C-00370,Rabia Butt,rabia.butt370@mail.com,Female,18-24,LOYALTY MEMBER,2025-11-13
+C-00180,Ayesha Butt,ayesha.butt180@mail.com,Female,25-34,Loyalty Member,2023-09-14
+C-00499,DANISH RAZA,new.danish.raza499@mail.com,Male,35-44,Wholesale,2025-05-10
+C-00475,Rabia Aslam,rabia.aslam475@mail.com,MALE,35-44,Regular,2026-04-29
+C-00569,RABIA RANA,new.rabia.rana569@mail.com,Female,35-44,REGULAR,2024-08-18
+C-00313,Hassan Sheikh,hassan.sheikh313@mail.com,Male,18-24,Regular,2025-08-29
+C-00578,  Ali Siddiqui ,ali.siddiqui578@mail.com,Male,25-34,Regular,2025-10-03
+C-00289,Waqas Farooq,waqas.farooq289@mail.com,Male,35-44,Wholesale,2025-02-07
+C-00272,Waqas Sheikh,waqas.sheikh272@mail.com,Male,55+,Regular,2025-09-27
+C-00036,Laiba Chaudhry,laiba.chaudhry36@mail.com,Female,25-34,Regular,2024-04-09
+C-00074,Zain Farooq,zain.farooq74@mail.com,Male,25-34,Regular,2024-11-25
+C-00347,Hamza Raza,hamza.raza347@mail.com,Male,35-44,Loyalty Member,2026-04-04
+C-00329,Mahnoor Ahmed,mahnoor.ahmed329@mail.com,Female,18-24,Loyalty Member,2025-11-10
+C-00069,Ahmed Bhatti,ahmed.bhatti69@mail.com,Male,35-44,Wholesale,2023-11-15
+C-00386,Kamran Aslam,kamran.aslam386@mail.com,Male,45-54,Regular,2025-12-05
+C-00417,Hamza Mirza,hamza.mirza417@mail.com,Male,45-54,Wholesale,2025-06-14
+C-00397,Ali Mirza,ali.mirza397@mail.com,Male,18-24,Wholesale,2026-01-18
+C-00196,Sidra Rana,sidra.rana196@mail.com,Female,35-44,Regular,2025-01-12
+C-00071,Zain Hussain,zain.hussain71@mail.com,Male,25-34,Loyalty Member,2024-10-01
+C-00154,Hamza Farooq,hamza.farooq154@mail.com,Male,18-24,Loyalty Member,2025-04-29
+C-00189,Hamza Butt,hamza.butt189@mail.com,Male,35-44,Loyalty Member,2023-06-06
+C-00161,Laiba Mirza,laiba.mirza161@mail.com,Female,18-24,Loyalty Member,2025-04-19
+C-00434,Ali Abbasi,ali.abbasi434@mail.com,Male,35-44,Loyalty Member,2025-06-25
+C-00053,Hira Ahmed,hira.ahmed53@mail.com,Female,18-24,Loyalty Member,2023-12-19
+C-00537,Iqra Ahmed,iqra.ahmed537@mail.com,Female,55+,Regular,2026-01-02
+C-00375,Noor Farooq,,Female,25-34,Regular,2025-10-05
+C-00046,Ali Rana,ali.rana46@mail.com,M,45-54,Regular,2024-09-14
+C-00197,Hira Iqbal,hira.iqbal197@mail.com,Female,25-34,Loyalty Member,2025-09-02
+C-00118,Iqra Chaudhry,iqra.chaudhry118@mail.com,Female,35-44,Loyalty Member,2025-07-26
+C-00037,Amna Farooq,amna.farooq37@mail.com,Female,45-54,Regular,2023-06-02
+C-00459,Ahmed Iqbal,ahmed.iqbal459@mail.com,Male,45-54,Loyalty Member,2025-07-26
+C-00457,Usman Hussain,usman.hussain457@mail.com,F,35-44,Regular,2024-10-08
+C-00356,Ayesha Raza,ayesha.raza356@mail.com,Female,18-24,Loyalty Member,2025-04-06
+C-00522,Saad Rana,saad.rana522@mail.com,Male,25-34,Wholesale,2023-06-24
+C-00441,Hina Ahmed,hina.ahmed441@mail.com,female,45-54, Regular ,2024-02-10
+C-00062,Danish Nawaz,danish.nawaz62@mail.com,Male,25-34,Regular,2026-02-21
+C-00171,HIRA SIDDIQUI,new.hira.siddiqui171@mail.com,female,25-34,Regular,2025-02-17
+C-00176,Hassan Iqbal,hassan.iqbal176@mail.com,Male,55+,Loyalty Member,2023-06-29
+C-00245,HIRA SIDDIQUI,new.hira.siddiqui245@mail.com,Female,35-44,Regular,2023-06-20
+C-00451,Ali Aslam,ali.aslam451@mail.com,Male,55+, Regular ,2025-01-14
+C-00005,Noor Bhatti,,Female,45-54,Regular,2023-07-25
+C-00228,Fahad Shah,fahad.shah228@mail.com,FEMALE,25-34,Wholesale,2023-08-29
+C-00349,  Talha Chaudhry ,talha.chaudhry349@mail.com,Male,45-54,Loyalty Member,2025-03-20
+C-00266,Areeba Nawaz,areeba.nawaz266@mail.com,Female,45-54,Regular,2025-04-02
+C-00598,Talha Ahmed,talha.ahmed598@mail.com,Male,35-44,Loyalty Member,2023-12-09
+C-00304,Amna Hussain,amna.hussain304@mail.com,Female,35-44,Regular,2024-02-06
+C-00493,Omar Nawaz,omar.nawaz493@mail.com,Male,25-34,Regular,2025-02-01
+C-00040,Hamza Aslam,hamza.aslam40@mail.com,Male,45-54,Regular,2023-10-20
+C-00245,Hira Siddiqui,hira.siddiqui245@mail.com,Female,35-44,Regular,2023-06-20
+C-00110,Sidra Khan,sidra.khan110@mail.com,Female,25-34,REGULAR,2025-02-12
+C-00499,Danish Raza,danish.raza499@mail.com,Male,35-44,Wholesale,2025-05-10
+C-00049,Fahad Siddiqui,fahad.siddiqui49@mail.com,Male,25-34,Loyalty Member,2026-02-19
+C-00361,Hamza Iqbal,hamza.iqbal361@mail.com,Male,,Regular,2025-07-11
+C-00047,Ali Raza,ali.raza47@mail.com,Male,25-34,Regular,2023-09-29
+C-00483,Iqra Aslam,iqra.aslam483@mail.com,Female,45-54,Wholesale,2024-05-15
+C-00515,Rabia Malik,rabia.malik515@mail.com,Female,25-34,Wholesale,2025-04-08
+C-00120,Fahad Butt,fahad.butt120@mail.com,Male,35-44,Regular,2026-04-26
+C-00387,Areeba Raza,areeba.raza387@mail.com,Female,25-34,Regular,2023-07-09
+C-00359,Iqra Sheikh,iqra.sheikh359@mail.com,Female,25-34,Wholesale,2025-05-17
+C-00372,Kamran Javed,kamran.javed372@mail.com,Male,45-54,Regular,2024-09-22
+C-00157,Waqas Farooq,waqas.farooq157@mail.com,Male,45-54,Loyalty Member,2024-12-05
+C-00510,Areeba Butt,areeba.butt510@mail.com,Female,35-44,Loyalty Member,2023-08-14
+C-00203,Hira Siddiqui,,Female,45-54,Loyalty Member,2024-06-06
+C-00027,Bilal Farooq,bilal.farooq27@mail.com,Male,18-24,regular,2026-03-07
+C-00434,ALI ABBASI,new.ali.abbasi434@mail.com,Male,35-44,Loyalty Member,2025-06-25
+C-00498,Kamran Sheikh,kamran.sheikh498@mail.com,Male,18-24,Regular,2025-01-15
+C-00540,Fatima Raza,fatima.raza540@mail.com,Female,18-24,Loyalty Member,2023-10-02
+C-00341,Hira Rana,hira.rana341@mail.com,Female,55+,LOYALTY MEMBER,2025-12-06
+C-00191,  Fahad Iqbal ,fahad.iqbal191@mail.com,Male,55+,Loyalty Member,2024-12-31
+C-00591,Ali Khan,ali.khan591@mail.com,Male,55+,Regular,2026-05-20
+C-00129,Fahad Mirza,fahad.mirza129@mail.com,Male,55+,Regular,2024-04-08
+C-00185,Hira Javed,hira.javed185@mail.com,Female,45-54,Loyalty Member,2025-01-29
+C-00531,Danish Abbasi,danish.abbasi531@mail.com,Male,45-54,Regular,2023-11-07
+C-00512,Iqra Bhatti,iqra.bhatti512@mail.com,Female,25-34,Regular,2024-01-06
+C-00141,Ayesha Mirza,ayesha.mirza141@mail.com,Female,35-44,Regular,2024-12-21
+C-00449,Kamran Rana,kamran.rana449@mail.com,Male,55+,Regular,2024-11-24
+C-00478,Sidra Iqbal,sidra.iqbal478@mail.com,Female,45-54,Loyalty Member,2025-04-19
+C-00448,  Sidra Khan ,sidra.khan448@mail.com,Female,18-24,Wholesale,2023-11-14
+C-00082,Areeba Ahmed,areeba.ahmed82@mail.com,Female,55+,Loyalty Member,2023-12-07
+C-00155,Sidra Aslam,sidra.aslam155@mail.com,MALE,35-44,Regular,2024-01-03
+C-00333,Hira Abbasi,hira.abbasi333@mail.com,Female,35-44, Regular ,2023-11-28
+C-00590,Ali Khan,ali.khan590@mail.com,M,45-54,Loyalty Member,2026-05-25
+C-00068,Areeba Rana,areeba.rana68@mail.com,Female,45-54,Loyalty Member,2024-10-17
+C-00533,Amna Sheikh,amna.sheikh533@mail.com,Female,25-34,Loyalty Member,2024-05-02
+C-00353,Hira Farooq,hira.farooq353@mail.com,Female,45-54,Regular,2026-05-06
+C-00104,Haris Chaudhry,haris.chaudhry104@mail.com,Male,35-44,Regular,2025-06-15
+C-00220,Fahad Javed,,Male,35-44,Regular,2024-03-23
+C-00491,Hina Nawaz,hina.nawaz491@mail.com,Female,45-54,Regular,2025-05-02
+C-00001,Talha Malik,talha.malik1@mail.com,Male,55+,Regular,2023-07-22
+C-00234,  Ayesha Bhatti ,ayesha.bhatti234@mail.com,Female,55+,Regular,2025-08-23
+C-00142,SIDRA RAZA,new.sidra.raza142@mail.com,Female,18-24,Wholesale,2026-01-19
+C-00081,  Talha Siddiqui ,talha.siddiqui81@mail.com,Male,35-44,Regular,2026-04-01
+C-00523,Fatima Qureshi,fatima.qureshi523@mail.com,M,55+,Regular,2023-10-06
+C-00476,Laiba Farooq,laiba.farooq476@mail.com,Female,25-34,Loyalty Member,2024-03-13
+C-00064,Amna Ahmed,amna.ahmed64@mail.com,Female,18-24,Regular,2025-03-04
+C-00009,Kamran Hussain,kamran.hussain9@mail.com,Male,18-24,Loyalty Member,2023-12-27
+C-00236,  Talha Aslam ,talha.aslam236@mail.com,Male,45-54,Regular,2023-08-13
+C-00429,Mahnoor Raza,mahnoor.raza429@mail.com,Female,25-34,Wholesale,2025-12-12
+C-00402,Sidra Javed,sidra.javed402@mail.com,Female,,Regular,2026-02-05
+C-00321,Usman Abbasi,usman.abbasi321@mail.com,Male,,Regular,N/A
+C-00051,Rabia Shah,rabia.shah51@mail.com,Female,18-24,Regular,2024-06-24
+C-00048,  Areeba Ahmed ,areeba.ahmed48@mail.com,Female,18-24,Loyalty Member,2025-04-07
+C-00050,Bilal Rana,bilal.rana50@mail.com,Male,25-34,Loyalty Member,2026-01-24
+C-00352,Hassan Ahmed,hassan.ahmed352@mail.com,FEMALE,55+,Loyalty Member,2024-10-20
+,Walk In Customer,,Male,25-34,Regular,2025-01-01
+C-00134,Mahnoor Shah,mahnoor.shah134@mail.com,Female,35-44,Regular,2024-08-25
+C-00346,Hira Ahmed,hira.ahmed346@mail.com,Female,25-34,Regular,2023-09-25
+C-00291,Haris Malik,haris.malik291@mail.com,Male,55+,Loyalty Member,2026-03-01
+C-00331,Iqra Mirza,iqra.mirza331@mail.com,Female,25-34,Regular,2025-10-03
+C-00595,Noor Siddiqui,noor.siddiqui595@mail.com,FEMALE,25-34,Loyalty Member,2025-05-26
+C-00502,LAIBA RANA,new.laiba.rana502@mail.com,Female,,Regular,2024-10-03
+C-00217,  Sidra Malik ,sidra.malik217@mail.com,Female,18-24,Wholesale,2026-01-01
+C-00440,Iqra Butt,,Female,35-44,Loyalty Member,2024-02-20
+C-00588,Noor Javed,noor.javed588@mail.com,Female,18-24,Loyalty Member,2025-07-04
+C-00408,  Mahnoor Hussain ,mahnoor.hussain408@mail.com,Female,18-24,Regular,2024-12-11
+C-00065,Iqra Aslam,,Female,45-54, Regular ,2026-03-26
+C-00367,Kamran Nawaz,kamran.nawaz367@mail.com,Male,18-24,Wholesale,2026-05-14
+C-00470,Kamran Nawaz,kamran.nawaz470@mail.com,Male,45-54,Wholesale,2024-12-24
+C-00538,Waqas Khan,waqas.khan538@mail.com,Male,25-34,Regular,2025-08-19
+C-00003,Haris Nawaz,haris.nawaz3@mail.com,Male,45-54,Loyalty Member,2023-11-26
+C-00336,Kamran Butt,kamran.butt336@mail.com,Male,45-54,Wholesale,2023-11-04
+C-00500,Omar Aslam,omar.aslam500@mail.com,Male,25-34,Loyalty Member,2024-08-12
+C-00466,Ali Malik,ali.malik466@mail.com,Male,25-34,Regular,2025-10-30
+C-00378,Danish Farooq,danish.farooq378@mail.com,Male,25-34,Regular,2024-02-11
+C-00285,Omar Ahmed,omar.ahmed285@mail.com,Male,55+,Loyalty Member,2024-02-15
+C-00528,Fatima Shah,fatima.shah528@mail.com,Female,45-54,Wholesale,2026-01-20
+C-00413,Hamza Hussain,hamza.hussain413@mail.com,Male,25-34,Loyalty Member,2025-01-26
+C-00096,Fahad Khan,fahad.khan96@mail.com,Male,35-44, Regular ,2024-06-30
+C-00078,  Areeba Sheikh ,areeba.sheikh78@mail.com,Female,18-24,Regular,2024-11-23
+C-00463,Hamza Mirza,hamza.mirza463@mail.com,Male,35-44,Regular,2026-04-01
+C-00385,  Ahmed Iqbal ,ahmed.iqbal385@mail.com,Male,55+,Regular,2026-01-23
+C-00425,Waqas Butt,waqas.butt425@mail.com,Male,45-54,Loyalty Member,2026-03-19
+C-00276,Amna Abbasi,amna.abbasi276@mail.com,Female,35-44,regular,2023-10-03
+C-00146,Sana Malik,sana.malik146@mail.com,F,35-44,Wholesale,2024-08-20
+C-00502,Laiba Rana,laiba.rana502@mail.com,Female,,Regular,2024-10-03
+C-00403,Rabia Sheikh,rabia.sheikh403@mail.com,Female,55+,Loyalty Member,2023-10-08
+C-00585,Ahmed Farooq,ahmed.farooq585@mail.com,Male,18-24,Wholesale,2023-08-09
+C-00330,Hina Raza,hina.raza330@mail.com,Female,45-54,Loyalty Member,2025-03-03
+C-00150,Hina Mirza,hina.mirza150@mail.com,Female,55+,REGULAR,2025-08-21
+C-00256,Iqra Abbasi,iqra.abbasi256@mail.com,Female,18-24,Regular,2024-02-25
+C-00136,Ayesha Mirza,ayesha.mirza136@mail.com,Female,35-44,REGULAR,2024-05-04
+C-00130,Hamza Shah,hamza.shah130@mail.com,Male,25-34,Loyalty Member,2025-09-12
+C-00284,Rabia Qureshi,rabia.qureshi284@mail.com,Female,18-24,Regular,2025-03-25
+C-00568,Haris Bhatti,haris.bhatti568@mail.com,Male,18-24,regular,2023-08-20
+C-00422,Fatima Abbasi,fatima.abbasi422@mail.com,Female,18-24,Loyalty Member,2025-11-26
+C-00139,Bilal Javed,bilal.javed139@mail.com,Male,18-24, Regular ,2024-06-07
+C-00098,  Noor Mirza ,noor.mirza98@mail.com,Female,25-34,Regular,2026-06-03
+C-00527,Sana Sheikh,sana.sheikh527@mail.com,Female,55+,Loyalty Member,2025-12-18
+C-00274,Danish Abbasi,danish.abbasi274@mail.com,Male,35-44,Loyalty Member,2024-08-18
+C-00297,Areeba Nawaz,areeba.nawaz297@mail.com,Female,35-44,Loyalty Member,2024-08-14
+C-00429,MAHNOOR RAZA,new.mahnoor.raza429@mail.com,Female,25-34,Wholesale,2025-12-12
+C-00332,Zainab Khan,zainab.khan332@mail.com,Female,25-34,Loyalty Member,2025-03-27
+C-00120,FAHAD BUTT,new.fahad.butt120@mail.com,Male,35-44,Regular,2026-04-26
+C-00552,Haris Ahmed,haris.ahmed552@mail.com,Male,55+,Regular,2024-10-14
+C-00288,  Hira Farooq ,hira.farooq288@mail.com,Female,45-54,Regular,2024-08-27
+C-00546,Bilal Qureshi,bilal.qureshi546@mail.com,Male,18-24,Regular,2023-06-08
+C-00574,Amna Abbasi,amna.abbasi574@mail.com,Female,25-34,Regular,2025-02-21
+C-00061,Zainab Siddiqui,zainab.siddiqui61@mail.com,Female,25-34,Loyalty Member,2025-12-18
+C-00570,Mahnoor Hussain,mahnoor.hussain570@mail.com,Female,18-24,Regular,2025-02-10
+C-00212,Talha Javed,talha.javed212@mail.com,female,25-34,Regular,2023-09-14
+C-00143,Amna Ahmed,amna.ahmed143@mail.com,Female,25-34,WHOLESALE,2025-05-17
+C-00170,Fatima Shah,fatima.shah170@mail.com,Female,25-34,Wholesale,2025-04-08
+C-00439,Noor Abbasi,noor.abbasi439@mail.com,Female,45-54,Wholesale,2024-02-18
+C-00360,Danish Mirza,danish.mirza360@mail.com,Male,45-54,Wholesale,2024-02-20
+C-00215,Rabia Qureshi,rabia.qureshi215@mail.com,Female,25-34,Loyalty Member,2024-04-20
+C-00243,Laiba Mirza,laiba.mirza243@mail.com,Female,35-44,Loyalty Member,2024-10-06
+C-00121,Amna Qureshi,amna.qureshi121@mail.com,Female,35-44,Regular,2024-02-04
+C-00450,Kamran Rana,kamran.rana450@mail.com,Male,45-54,Wholesale,2025-10-01
+C-00090,Areeba Shah,areeba.shah90@mail.com,Female,25-34, Regular ,2024-04-12
+C-00357,Haris Mirza,haris.mirza357@mail.com,F,,Wholesale,2025-01-02
+C-00270,Fahad Nawaz,fahad.nawaz270@mail.com,Male,35-44,Loyalty Member,2024-03-04
+C-00461,Ayesha Chaudhry,,Female,35-44,Loyalty Member,2024-04-22
+C-00398,ZAINAB ABBASI,new.zainab.abbasi398@mail.com,Female,,regular,2024-11-01
+C-00305,Mahnoor Shah,mahnoor.shah305@mail.com,Female,25-34,Loyalty Member,N/A
+C-00254,Laiba Siddiqui,laiba.siddiqui254@mail.com,Female,55+,Regular,2024-03-07
+C-00105,Haris Hussain,,Male,55+, Regular ,2025-03-04
+C-00436,Zainab Aslam,zainab.aslam436@mail.com,Female,35-44,Loyalty Member,2026-05-12
+C-00224,Waqas Iqbal,waqas.iqbal224@mail.com,Male,25-34,Loyalty Member,2026-02-27
+C-00560,Talha Mirza,talha.mirza560@mail.com,Male,25-34,Wholesale,2026-05-10
+C-00452,Sana Qureshi,sana.qureshi452@mail.com,Female,25-34,Loyalty Member,2025-09-09
+C-00043,Kamran Chaudhry,kamran.chaudhry43@mail.com,Male,35-44,Wholesale,2025-02-28
+C-00556,Kamran Hussain,kamran.hussain556@mail.com,Male,25-34,Regular,2024-09-28
+C-00376,Rabia Bhatti,rabia.bhatti376@mail.com,Female,25-34,Regular,2024-03-10
+C-00557,  Haris Farooq ,haris.farooq557@mail.com,Male,35-44,Regular,2024-08-26
+C-00275,  Fahad Abbasi ,fahad.abbasi275@mail.com,Male,55+,REGULAR,2023-12-21
+C-00117,Mahnoor Raza,mahnoor.raza117@mail.com,Female,,Wholesale,2025-12-19
+C-00587,Fahad Raza,fahad.raza587@mail.com,Male,18-24,Regular,2024-04-05
+C-00116,Ali Ahmed,ali.ahmed116@mail.com,Male,35-44,Loyalty Member,2024-10-14
+C-00524,Hira Iqbal,hira.iqbal524@mail.com,Female,35-44,Wholesale,2024-04-23
+C-00563,Saad Sheikh,saad.sheikh563@mail.com,Male,18-24,Loyalty Member,2026-01-04
+C-00508,Talha Ahmed,talha.ahmed508@mail.com,Male,55+,LOYALTY MEMBER,2023-12-01
+C-00580,  Sidra Qureshi ,sidra.qureshi580@mail.com,Female,45-54,Wholesale,2026-03-19
+C-00469,Saad Raza,saad.raza469@mail.com,Male,, Loyalty Member ,N/A
+C-00173,Amna Butt,amna.butt173@mail.com,Female,25-34,Wholesale,2024-06-27
+C-00296,Maryam Malik,maryam.malik296@mail.com,Female,55+,Wholesale,2024-01-21
+C-00551,Hamza Malik,hamza.malik551@mail.com,Male,35-44,Loyalty Member,2023-08-08
+C-00231,Iqra Hussain,iqra.hussain231@mail.com,Female,35-44,Regular,2023-12-23
+C-00282,Bilal Nawaz,bilal.nawaz282@mail.com,Male,25-34,Regular,2024-10-26
+C-00034,  Areeba Siddiqui ,areeba.siddiqui34@mail.com,Female,25-34,Loyalty Member,2026-03-22
+C-00300,Ayesha Siddiqui,ayesha.siddiqui300@mail.com,Female,25-34,Wholesale,2025-07-06
+C-00226,Kamran Nawaz,kamran.nawaz226@mail.com,Male,35-44,Regular,2025-07-12
+C-00032,Kamran Siddiqui,kamran.siddiqui32@mail.com,Male,18-24,Regular,2025-04-27
+C-00579,Zain Hussain,zain.hussain579@mail.com,Male,35-44,Loyalty Member,2024-09-14
+C-00085,  Hira Nawaz ,hira.nawaz85@mail.com,Female,45-54,Regular,2025-10-23
+C-00172,Usman Chaudhry,usman.chaudhry172@mail.com,Male,18-24,wholesale,2025-03-08
+C-00501,Omar Nawaz,omar.nawaz501@mail.com,Male,25-34,Regular,2024-12-08
+C-00455,Bilal Hussain,bilal.hussain455@mail.com,Male,55+,Regular,2025-03-15
+C-00426,Hina Nawaz,hina.nawaz426@mail.com,F,25-34,Regular,2024-01-28
+C-00504,Ahmed Malik,ahmed.malik504@mail.com,Male,25-34,Wholesale,2025-09-24
+C-00419,Haris Javed,haris.javed419@mail.com,Male,25-34,Regular,2023-08-11
+C-00507,Sana Chaudhry,sana.chaudhry507@mail.com,Female,25-34,Regular,2025-01-09
+C-00518,Mahnoor Mirza,mahnoor.mirza518@mail.com,Female,45-54,Regular,2025-10-23
+C-00576,Sana Hussain,sana.hussain576@mail.com,Female,25-34,Regular,2024-07-21
+C-00394,  Laiba Abbasi ,laiba.abbasi394@mail.com,Female,45-54,Loyalty Member,2024-10-05
+C-00200,Ali Raza,ali.raza200@mail.com,Male,55+,Loyalty Member,2024-09-11
+C-00140,Zainab Hussain,zainab.hussain140@mail.com,Female,35-44,regular,2024-08-07
+C-00497,Haris Nawaz,haris.nawaz497@mail.com,Male,35-44,Regular,2025-07-17
+C-00010,Usman Abbasi,usman.abbasi10@mail.com,Male,45-54,Regular,2025-05-05
+C-00368,Ayesha Bhatti,ayesha.bhatti368@mail.com,Female,45-54,Loyalty Member,2024-02-24
+C-00055,  Zain Nawaz ,zain.nawaz55@mail.com,Male,25-34,Loyalty Member,2025-12-05
+C-00462,  Hira Aslam ,hira.aslam462@mail.com,Female,35-44,Regular,2025-02-21

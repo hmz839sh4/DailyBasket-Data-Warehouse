@@ -1,0 +1,41 @@
+region_id,city,province,country,region_zone,src_row_id
+R-01,Lahore,Punjab,Pakistan,Central,1
+R-02,Faisalabad,Punjab,Pakistan,Central,2
+R-03,Rawalpindi,Punjab,Pakistan,North,3
+R-04,Multan,Punjab,Pakistan,South,41
+R-05,Gujranwala,Punjab,Pakistan,Central,5
+R-06,Sialkot,Punjab,Pakistan,Central,6
+R-07,Bahawalpur,Punjab,Pakistan,South,7
+R-08,Sargodha,Punjab,Pakistan,Central,8
+R-09,Sahiwal,Punjab,Pakistan,Central,9
+R-10,Jhang,Punjab,Pakistan,Central,42
+R-11,Okara,Punjab,Pakistan,Central,11
+R-12,Gujrat,Punjab,Pakistan,North,12
+R-13,Sheikhupura,Punjab,Pakistan,Central,13
+R-14,Rahim Yar Khan,Punjab,Pakistan,South,14
+R-15,Kasur,Punjab,Pakistan,Central,15
+R-16,Karachi,Sindh,Pakistan,South,16
+R-17,Hyderabad,Sindh,Pakistan,South,17
+R-18,Sukkur,Sindh,Pakistan,South,18
+R-19,Larkana,Sindh,Pakistan,South,19
+R-20,Mirpur Khas,Sindh,Pakistan,South,20
+R-21,Nawabshah,Sindh,Pakistan,South,21
+R-22,Peshawar,Khyber Pakhtunkhwa,Pakistan,North,43
+R-23,Mardan,Khyber Pakhtunkhwa,Pakistan,North,23
+R-24,Abbottabad,Khyber Pakhtunkhwa,Pakistan,North,24
+R-25,Swat,Khyber Pakhtunkhwa,Pakistan,North,25
+R-26,Kohat,Khyber Pakhtunkhwa,Pakistan,North,26
+R-27,Mansehra,Khyber Pakhtunkhwa,Pakistan,North,27
+R-28,Dera Ismail Khan,Khyber Pakhtunkhwa,Pakistan,North,28
+R-29,Quetta,Balochistan,Pakistan,South,44
+R-30,Gwadar,Balochistan,Pakistan,South,30
+R-31,Turbat,Balochistan,Pakistan,South,31
+R-32,Khuzdar,Balochistan,Pakistan,South,32
+R-33,Islamabad,Islamabad Capital Territory,Pakistan,North,33
+R-34,Muzaffarabad,Azad Kashmir,Pakistan,North,34
+R-35,Mirpur,Azad Kashmir,Pakistan,North,35
+R-36,Gilgit,Gilgit-Baltistan,Pakistan,North,36
+R-37,Skardu,Gilgit-Baltistan,Pakistan,North,37
+R-38,Chiniot,Punjab,Pakistan,Central,38
+R-39,Hafizabad,Punjab,Pakistan,Central,39
+R-40,Narowal,Punjab,Pakistan,Central,40

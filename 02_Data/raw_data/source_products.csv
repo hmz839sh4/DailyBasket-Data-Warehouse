@@ -1,0 +1,169 @@
+product_id,product_name,brand,subcategory,category,unit_cost,list_price,is_active
+P-0006,Gram Flour 1kg,Sunrise,Flour, Grocery ,1693.90,2110.00,Y
+P-0148,Wheat Flour 10kg Value Pack,Al-Noor,Flour,Grocery,1540.39,2315.50,Y
+P-0021,  Green Tea 25 bags  ,Baraka,Tea, Beverages ,203.55,260.00,Y
+P-0115,  Cream Cheese 200g Value Pack  ,purelife,Cheese,Dairy,,1521.00,Y
+P-0144,Dates 500g Value Pack,Baraka,Dry Fruit,snacks,246.20,406.50,Y
+P-0110,Plain Yogurt 1kg Value Pack,CleanWave,Yogurt,Dairy,114.85,181.50,Y
+P-0034,Fresh Milk 1L,al-noor,Milk,Dairy,1605.41,2140.00,Y
+P-0143,Mixed Nuts 400g Value Pack,Baraka,Dry Fruit,Snacks,1790.93,2556.00,N
+P-0052,Glass Cleaner 500ml,Golden Harvest,Cleaning,HOUSEHOLD,111.60,160.00,Y
+P-0060,Tea Biscuits 12 Pack,Sunrise,Biscuits,Snacks,400.55,630.00,Y
+P-0116,Salted Butter 200g Value Pack,CleanWave,Butter,Dairy,892.43,1099.00,Y
+P-0112,Raita Cup 250g Value Pack,DailyFresh,Yogurt,Dairy,1410.71,2145.00,Y
+P-0121,  Dish Soap 750ml Value Pack  ,CleanWave,Cleaning,Household,872.62,1089.00,Y
+P-0047,Liquid Detergent 1L,cleanwave,Detergent,Household,102.02,130.00,Y
+P-0005,Fine Flour 5kg,Golden Harvest,Flour,Grocery,,355.00,Y
+P-0147,Super Kernel Rice 10kg Value Pack,al-noor,Rice,grocery,179.59,288.00,Y
+P-0073,Basmati Rice 5kg Value Pack,PureLife,Rice,grocery,1578.01,2337.50,Y
+P-0140,Hazelnut Spread 350g Value Pack,CleanWave,Chocolate,Snacks,1588.26,2354.00,Y
+P-0008,Canola Oil 3L, CleanWave,Cooking Oil,Grocery,751.91,955.00,Y
+P-0079,Cooking Oil 5L Value Pack,GreenField,Cooking Oil,Grocery,1757.69,2158.00,Y
+P-0020,  Black Tea 950g  ,Golden Harvest,Tea,Beverages,1282.22,1690.00,Y
+P-0085,  Mung Beans 1kg Value Pack  , Golden Harvest,Pulses,Grocery,1168.07,1499.50,Y
+P-0009,Ghee 1kg,Sunrise,Cooking Oil,Grocery,517.54,790.00,Y
+P-0024,Orange Juice 1L,al-noor,Juice,Beverages,140.15,205.00,0
+P-0154,Olive Oil 500ml Value Pack,golden harvest,Cooking Oil,Grocery,120.12,166.00,Y
+P-0076,Wheat Flour 10kg Value Pack,DailyFresh,Flour,Grocery,2187.58,2736.50,Y
+P-0059,Hand Wash 250ml,Al-Noor,Personal Care,Household,591.31,805.00,Y
+P-0146,Sella Rice 5kg Value Pack,Golden Harvest,Rice,Grocery,140.00,181.50,Y
+P-0022,Tea Whitener 1kg,Sunrise,Tea,Beverages,187.19,290.00,Y
+P-0159,Red Chilli Powder 200g Value Pack,DailyFresh,Spices,grocery,1463.33,1900.00,0
+P-0048,Fabric Softener 1L,PureLife,Detergent,Household,137.53,220.00,Y
+P-0131,Hand Wash 250ml Value Pack,GreenField,Personal Care,HOUSEHOLD,517.61,724.50,0
+P-0122,Floor Cleaner 1L Value Pack,Golden Harvest,Cleaning, Household ,1818.09,2520.00,Y
+P-0122,Floor Cleaner 1L Value Pack,Golden Harvest,Cleaning, Household ,1818.09,2530.00,Y
+P-0126,  Kitchen Roll 2 Pack Value Pack  ,GreenField,Paper,Household,263.45,396.50,Y
+P-0033,Sparkling Water 500ml,CleanWave,Water,Beverages,515.43,805.00,Y
+P-0016,Turmeric 200g,baraka,Spices,Grocery,98.92,130.00,Y
+P-0094,Tea Whitener 1kg Value Pack,CLEANWAVE,Tea,Beverages,247.13,387.00,Y
+P-0093,Green Tea 25 bags Value Pack,Sunrise,Tea,Beverages,191.16,286.00,Y
+P-0100,Lemon Soda 1.5L Value Pack,Baraka,Soft Drinks,Beverages,2639.86,3653.00,Y
+P-0109,Milk Powder 900g Value Pack,DailyFresh,Milk,Dairy,79.52,117.00,Y
+P-0040,Raita Cup 250g,PureLife,Yogurt, Dairy ,1165.34,1650.00,Y
+P-0007,Cooking Oil 5L,PureLife,Cooking Oil,Grocery,1343.79,1660.00,Y
+P-0029,Orange Soda 1.5L,golden harvest,Soft Drinks,Beverages,170.69,225.00,Y
+P-0082,Olive Oil 500ml Value Pack,DailyFresh,Cooking Oil,Grocery,119.46,156.00,Y
+P-0003,  Super Kernel Rice 10kg  , Sunrise,Rice,GROCERY,250.64,320.00,Y
+P-0135,Salted Chips 90g Value Pack,Baraka,Chips,Snacks,239.10,292.50,Y
+P-0068,Hazelnut Spread 350g,Baraka,Chocolate,SNACKS,1578.28,2140.00,Y
+P-0086,Black Lentils 1kg Value Pack,PureLife,Pulses,Grocery,48.43,76.50,Y
+P-0084,Chickpeas 1kg Value Pack,Baraka,Pulses,Grocery,806.98,1050.50,Y
+P-0061,  Cream Biscuits 6 Pack  ,PureLife,Biscuits,Snacks,656.07,820.00,Y
+P-0010,Olive Oil 500ml,Al-Noor,Cooking Oil,Grocery,79.98,120.00,false
+P-0083,  Red Lentils 1kg Value Pack  ,GreenField,Pulses,Grocery,73.98,112.50,Y
+P-0117,Unsalted Butter 200g Value Pack,baraka,Butter,Dairy,100.23,153.00,Y
+P-0064,Masala Chips 90g,PureLife,Chips,Snacks,95.76,145.00,Y
+P-0011,Red Lentils 1kg,Golden Harvest,Pulses,Grocery,89.45,125.00,Y
+P-0108,Low Fat Milk 1L Value Pack,golden harvest,Milk, Dairy ,225.55,308.00,Y
+P-0095,Mango Juice 1L Value Pack,Golden Harvest,Juice,Beverages,1513.40,2197.00,Y
+P-0102,Energy Drink 250ml Value Pack,PureLife,Soft Drinks,Beverages,227.99,308.00,Y
+P-0132,Tea Biscuits 12 Pack Value Pack,greenfield,Biscuits,Snacks,549.90,693.00,Y
+P-0063,Salted Chips 90g,Baraka,Chips,Snacks,145.18,225.00,Y
+P-0156,Chickpeas 1kg Value Pack,PureLife,Pulses,grocery,695.68,1050.50,Y
+P-0097,  Apple Juice 1L Value Pack  ,Sunrise,Juice,Beverages,1051.96,1612.00,Y
+P-0019,Sugar 2kg,PureLife,Spices,Grocery,1593.40,2125.00,Y
+P-0144,Dates 500g Value Pack,Baraka,Dry Fruit,snacks,246.20,396.50,Y
+P-0004,Wheat Flour 10kg,Baraka,Flour,Grocery,1547.47,2105.00,Y
+P-0136,Masala Chips 90g Value Pack,PureLife,Chips,Snacks,128.80,188.50,Y
+P-0067,Chocolate Wafer 6 Pack,Sunrise,Chocolate,Snacks,2034.26,2810.00,Y
+P-0133,Cream Biscuits 6 Pack Value Pack,DailyFresh,Biscuits,Snacks,748.99,1066.00,Y
+P-0055,Toilet Paper 10 Pack,PureLife,Paper,Household,2059.31,2810.00,Y
+P-0037,Milk Powder 900g,Baraka,Milk,Dairy,85.02,130.00,Y
+P-0069,Almonds 250g, GreenField,Dry Fruit,Snacks,94.24,145.00,Y
+P-0114,  Mozzarella 500g Value Pack  ,Baraka,Cheese,DAIRY,240.30,319.50,Y
+P-0074,Sella Rice 5kg Value Pack,Baraka,Rice,Grocery,113.94,181.50,Y
+P-0062,  Digestive Biscuits 400g  ,PureLife,Biscuits,Snacks,94.91,145.00,Y
+P-0072,  Dates 500g  ,CleanWave,Dry Fruit,Snacks,229.04,305.00,Y
+P-0129,Shampoo 400ml Value Pack,CleanWave,Personal Care,Household,2198.46,2782.00,Y
+P-0015,Red Chilli Powder 200g,Golden Harvest,Spices,Grocery,1657.52,2100.00,Y
+P-0137,Chips Family Pack 200g Value Pack,PureLife,Chips,Snacks,1982.91,2556.00,Y
+P-0070,Cashew 250g,dailyfresh,Dry Fruit, Snacks ,124.15,160.00,Y
+P-0117,Unsalted Butter 200g Value Pack,baraka,Butter,Dairy,100.23,143.00,Y
+P-0023,  Mango Juice 1L  ,Sunrise,Juice,Beverages,1180.16,1690.00,Y
+P-0125,Tissue Box 200 Value Pack,PureLife,Paper,Household,335.09,414.00,Y
+P-0160,Turmeric 200g Value Pack,Sunrise,Spices,grocery,86.44,117.00,Y
+P-0106,Fresh Milk 1L Value Pack,CleanWave,Milk,Dairy,1601.73,2354.00,false
+P-0080,Canola Oil 3L Value Pack,PureLife,Cooking Oil,Grocery,714.44,1050.50,Y
+P-0027,Cola 1.5L,greenfield,Soft Drinks, Beverages ,235.29,360.00,no
+P-0026,Mixed Fruit Juice 1L,Al-Noor,Juice,BEVERAGES,134.59,175.00,Y
+P-0142,Cashew 250g Value Pack,PureLife,Dry Fruit,Snacks,130.75,176.00,Y
+P-0081,Ghee 1kg Value Pack,CleanWave,Cooking Oil,Grocery,,711.00,Y
+P-0155,Red Lentils 1kg Value Pack, Baraka,Pulses,Grocery,85.78,137.50,yes
+P-0092,Black Tea 950g Value Pack,BARAKA,Tea,Beverages,1641.34,2197.00,Y
+P-0041,  Cheese Slices 200g  ,greenfield,Cheese,Dairy,635.14,975.00,Y
+P-0071,Mixed Nuts 400g,Baraka,Dry Fruit,SNACKS,2260.72,2840.00,Y
+P-0099,Cola 1.5L Value Pack,al-noor,Soft Drinks,Beverages,244.79,324.00,Y
+P-0039,Fruit Yogurt 150g,CleanWave,Yogurt,Dairy,318.65,390.00,Y
+P-0151,Cooking Oil 5L Value Pack,DailyFresh,Cooking Oil,Grocery,1478.50,1826.00,Y
+P-0159,Red Chilli Powder 200g Value Pack,DailyFresh,Spices,grocery,1463.33,1890.00,0
+P-0090,Salt 800g Value Pack,Sunrise,Spices,Grocery,177.60,221.00,Y
+P-0138,Milk Chocolate 90g Value Pack,Golden Harvest,Chocolate,Snacks,140.66,188.50,Y
+P-0053,Tissue Box 200,Sunrise,Paper,household,302.37,460.00,Y
+P-0103,Mineral Water 1.5L Value Pack,al-noor,Water,Beverages,350.32,522.50,Y
+P-0018,Salt 800g,Baraka,Spices,Grocery,130.30,170.00,Y
+P-0104,  Mineral Water 6 Pack Value Pack  ,DailyFresh,Water,Beverages,435.19,617.50,TRUE
+P-0058,  Toothpaste 150g  ,Baraka,Personal Care,Household,614.76,780.00,Y
+P-0038,Plain Yogurt 1kg,GreenField,Yogurt,dairy,120.35,165.00,Y
+P-0044,Salted Butter 200g, GreenField,Butter,Dairy,822.17,1210.00,Y
+P-0150,Gram Flour 1kg Value Pack,dailyfresh,Flour,Grocery,1792.29,2743.00,Y
+P-0154,Olive Oil 500ml Value Pack,golden harvest,Cooking Oil,Grocery,120.12,156.00,Y
+P-0139,Chocolate Wafer 6 Pack Value Pack,Golden Harvest,Chocolate,Snacks,2308.67,3091.00,Y
+P-0098,Mixed Fruit Juice 1L Value Pack,AL-NOOR,Juice,BEVERAGES,124.65,157.50,Y
+P-0089,Garam Masala 100g Value Pack,Sunrise,Spices,Grocery,700.04,1045.00,Y
+P-0120,Fabric Softener 1L Value Pack,Al-Noor,Detergent,Household,149.94,198.00,Y
+P-0054,Kitchen Roll 2 Pack,Al-Noor,Paper,Household,217.47,305.00,Y
+P-0123,Bleach 1L Value Pack,PURELIFE,Cleaning,Household,481.58,709.50,Y
+P-0119,Liquid Detergent 1L Value Pack,Al-Noor,Detergent,Household,80.57,117.00,Y
+P-0065,Chips Family Pack 200g,GreenField,Chips,SNACKS,1907.28,2840.00,Y
+P-0042,Mozzarella 500g,Baraka,Cheese,Dairy,289.28,355.00,Y
+P-0113,Cheese Slices 200g Value Pack,AL-NOOR,Cheese,Dairy,701.95,877.50,Y
+P-0078,Gram Flour 1kg Value Pack,DailyFresh,Flour,GROCERY,1854.46,2743.00,TRUE
+P-0077,Fine Flour 5kg Value Pack,Golden Harvest,Flour,Grocery,305.95,390.50,Y
+P-0085,  Mung Beans 1kg Value Pack  , Golden Harvest,Pulses,Grocery,1168.07,1489.50,Y
+P-0050,Floor Cleaner 1L,Baraka,Cleaning,Household,1908.68,2800.00,Y
+P-0014,  Black Lentils 1kg  ,PureLife,Pulses,Grocery,55.21,85.00,Y
+P-0017,Garam Masala 100g,golden harvest,Spices,Grocery,652.95,950.00,Y
+P-0153,Ghee 1kg Value Pack,PureLife,Cooking Oil,Grocery,489.56,711.00,Y
+P-0094,Tea Whitener 1kg Value Pack,CLEANWAVE,Tea,Beverages,247.13,377.00,Y
+P-0045,Unsalted Butter 200g,CleanWave,Butter,Dairy,80.78,110.00,Y
+P-0046,Washing Powder 2kg,Baraka,Detergent,household,114.21,165.00,Y
+P-0124,Glass Cleaner 500ml Value Pack, PureLife,Cleaning,Household,159.78,208.00,Y
+P-0111,Fruit Yogurt 150g Value Pack,golden harvest,Yogurt,Dairy,401.70,507.00,Y
+P-0013,  Mung Beans 1kg  ,Golden Harvest,Pulses,grocery,1330.22,1655.00,Y
+P-0002,Sella Rice 5kg,Al-Noor,Rice,Grocery,110.48,165.00,Y
+P-0128,Bath Soap 3 Pack Value Pack,Golden Harvest,Personal Care,HOUSEHOLD,,2730.00,Y
+P-0035,Full Cream Milk 1L,Sunrise,Milk,Dairy,120.60,190.00,Y
+P-0130,  Toothpaste 150g Value Pack  ,Sunrise,Personal Care,household,804.38,1014.00,Y
+P-0145,Basmati Rice 5kg Value Pack,Al-Noor,Rice,Grocery,1465.23,1912.50,Y
+P-0116,Salted Butter 200g Value Pack,CleanWave,Butter,Dairy,892.43,1089.00,Y
+P-0032,Mineral Water 6 Pack,Golden Harvest,Water, Beverages ,378.27,475.00,Y
+P-0157,  Mung Beans 1kg Value Pack  ,PureLife,Pulses,Grocery,1173.55,1820.50,Y
+P-0107,Full Cream Milk 1L Value Pack,BARAKA,Milk,DAIRY,126.01,171.00,Y
+P-0152,Canola Oil 3L Value Pack,Golden Harvest,Cooking Oil,Grocery,877.41,1241.50,Y
+P-0087,Red Chilli Powder 200g Value Pack,Baraka,Spices,Grocery,1223.08,1890.00,Y
+P-0149,Fine Flour 5kg Value Pack,dailyfresh,Flour,Grocery,298.03,461.50,Y
+P-0118,  Washing Powder 2kg Value Pack  ,Sunrise,Detergent,Household,109.39,148.50,Y
+P-0056,Bath Soap 3 Pack,Golden Harvest,Personal Care,Household,1338.00,2100.00,Y
+P-0101,Orange Soda 1.5L Value Pack,Sunrise,Soft Drinks,Beverages,144.75,202.50,Y
+P-0031,Mineral Water 1.5L,PureLife,Water,beverages,,475.00,Y
+P-0049,Dish Soap 750ml,CleanWave,Cleaning,Household,986.65,1210.00,Y
+P-0051,Bleach 1L,DailyFresh,Cleaning,HOUSEHOLD,515.34,645.00,Y
+P-0066,Milk Chocolate 90g,Golden Harvest,Chocolate,Snacks,106.03,145.00,Y
+P-0158,Black Lentils 1kg Value Pack,Sunrise,Pulses,GROCERY,53.17,76.50,Y
+P-0105,Sparkling Water 500ml Value Pack,Golden Harvest,Water,Beverages,744.90,1046.50,Y
+P-0036,Low Fat Milk 1L,GREENFIELD,Milk,DAIRY,191.45,280.00,Y
+P-0127,  Toilet Paper 10 Pack Value Pack  ,DailyFresh,Paper,Household,2176.36,3091.00,Y
+P-0043,  Cream Cheese 200g  , DailyFresh,Cheese,Dairy,1291.85,1690.00,Y
+P-0012,Chickpeas 1kg, Golden Harvest,Pulses,Grocery,746.13,955.00,Y
+P-0028,Lemon Soda 1.5L,DailyFresh,Soft Drinks,BEVERAGES,1993.21,2810.00,Y
+P-0096,Orange Juice 1L Value Pack, GreenField,Juice,Beverages,180.42,266.50,Y
+P-0134,Digestive Biscuits 400g Value Pack,PureLife,Biscuits, Snacks ,130.55,159.50,Y
+P-0141,  Almonds 250g Value Pack  , PureLife,Dry Fruit,SNACKS,114.51,159.50,1
+P-0075,Super Kernel Rice 10kg Value Pack,Al-Noor,Rice,Grocery,262.02,416.00,Y
+P-0091,Sugar 2kg Value Pack,Al-Noor,Spices, Grocery ,1290.55,1912.50,Y
+P-0088,Turmeric 200g Value Pack,SUNRISE,Spices,Grocery,76.61,117.00,Y
+P-0001,Basmati Rice 5kg,Al-Noor,Rice,Grocery,1542.51,2125.00,1
+P-0057,Shampoo 400ml,Al-Noor,Personal Care,Household,1503.99,2140.00,Y
+P-0025,Apple Juice 1L,CleanWave,Juice,Beverages,794.62,1240.00,Y
+P-0030,Energy Drink 250ml,sunrise,Soft Drinks,beverages,213.94,280.00,Y

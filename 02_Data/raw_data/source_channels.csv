@@ -1,0 +1,5 @@
+channel_id,channel_name,channel_type
+CH-01,In-Store,Offline
+CH-02,Website,Online
+CH-03,Mobile App,Online
+CH-02, website ,ONLINE

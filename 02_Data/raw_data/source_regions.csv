@@ -1,0 +1,45 @@
+region_id,city,province,country,region_zone
+R-01,  lahore ,Punjab,Pakistan,Central
+R-02,FAISALABAD,Punjab,Pakistan,Central
+R-03,Rawalpindi,Punjab,Pakistan,North
+R-04,Multan,Punjab,Pakistan,South
+R-05,Gujranwala,Punjab,Pakistan,Central
+R-06,Sialkot,Punjab,Pakistan,Central
+R-07,Bahawalpur,Punjab,Pakistan,South
+R-08,Sargodha,Punjab,Pakistan,Central
+R-09,Sahiwal,Punjab,Pakistan,Central
+R-10,Jhang,Punjab,Pakistan,Central
+R-11,Okara,Punjab,Pakistan,Central
+R-12,Gujrat,Punjab,Pakistan,North
+R-13,Sheikhupura,Punjab,Pakistan,Central
+R-14,Rahim Yar Khan,Punjab,Pakistan,South
+R-15,Kasur,Punjab,Pakistan,Central
+R-16,karachi,Sindh,Pakistan,South
+R-17,Hyderabad,Sindh,Pakistan,South
+R-18,Sukkur,Sindh,Pakistan,South
+R-19,Larkana,Sindh,Pakistan,South
+R-20,Mirpur Khas,Sindh,Pakistan,South
+R-21,Nawabshah,SINDH,Pakistan,South
+R-22,Peshawar,Khyber Pakhtunkhwa,Pakistan,North
+R-23,Mardan,Khyber Pakhtunkhwa,Pakistan,North
+R-24,Abbottabad,Khyber Pakhtunkhwa,Pakistan,North
+R-25,Swat,Khyber Pakhtunkhwa,Pakistan,North
+R-26,Kohat,Khyber Pakhtunkhwa,Pakistan,North
+R-27,Mansehra,Khyber Pakhtunkhwa,Pakistan,North
+R-28,Dera Ismail Khan,Khyber Pakhtunkhwa,Pakistan,North
+R-29,Quetta,Balochistan,Pakistan,South
+R-30,Gwadar,Balochistan,Pakistan,South
+R-31,Turbat,Balochistan,Pakistan,South
+R-32,Khuzdar,Balochistan,Pakistan,South
+R-33, Islamabad  ,Islamabad Capital Territory,Pakistan,North
+R-34,Muzaffarabad,Azad Kashmir,Pakistan,North
+R-35,Mirpur,Azad Kashmir,Pakistan,North
+R-36,Gilgit,Gilgit-Baltistan,Pakistan,North
+R-37,Skardu,Gilgit-Baltistan,Pakistan,North
+R-38,Chiniot,Punjab,Pakistan,Central
+R-39,Hafizabad,Punjab,Pakistan,Central
+R-40,Narowal,Punjab,Pakistan,Central
+R-04, MULTAN,Punjab,Pakistan,South
+R-10, JHANG,Punjab,Pakistan,Central
+R-22, PESHAWAR,Khyber Pakhtunkhwa,Pakistan,North
+R-29, QUETTA,Balochistan,Pakistan,South
