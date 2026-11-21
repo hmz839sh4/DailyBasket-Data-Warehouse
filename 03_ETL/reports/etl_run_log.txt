@@ -1,0 +1,65 @@
+##### RUN 1: full build from scratch (new data generated)
+source_regions.csv               44 rows
+source_channels.csv               4 rows
+source_customers.csv            631 rows
+source_products.csv             168 rows
+source_promotions.csv            32 rows
+source_promotion_products.csv    270 rows
+source_orders.csv              4400 rows
+source_order_lines.csv        13177 rows
+source_inventory.csv          16660 rows
+done
+[1/10] 00_create_database_and_schemas.sql         Create database and 3 schemas                        0.1s
+[2/10] 01_staging_schema.sql                      Create staging tables                                0.1s
+[3/10] 02_load_staging.sql                        Load CSV files into raw staging                      0.2s
+[4/10] 03_staging_cleaning.sql                    Clean staging data (duplicates, NULLs, text, types)  0.4s
+[5/10] 04_dw_schema.sql                           Create warehouse tables (star schema)                0.1s
+[6/10] 05_load_dimensions.sql                     Load dimensions (surrogate keys)                     0.1s
+[7/10] 06_load_facts.sql                          Load facts (business key -> surrogate key)           0.8s
+[8/10] 07_reporting_views.sql                     Create reporting views                               0.1s
+[9/10] 08_data_quality_checks.sql                 Run data quality checks                              0.2s
+   category   | status | checks 
+--------------+--------+--------
+ Accuracy     | PASS   |     25
+ Completeness | INFO   |      3
+ Completeness | PASS   |      9
+ Integrity    | PASS   |     26
+(4 rows)
+
+ check_id |   category   | status |                        check_name                        | expected | actual 
+----------+--------------+--------+----------------------------------------------------------+----------+--------
+       10 | Completeness | INFO   | Customers with no email (filled with "not provided")     | info     | 14
+       11 | Completeness | INFO   | Customers with unknown age group (filled with "Unknown") | info     | 12
+       12 | Completeness | INFO   | Customers with no valid signup date (kept as NULL)       | info     | 6
+(3 rows)
+
+
+[10/10] 09_export_cleaned_data.sql                 Save cleaned data as CSV files                       0.1s
+
+##### RUN 2: re-run on the same database and files
+RE-RUN MODE: database is kept. Staging is reloaded. Warehouse must not grow.
+[1/9] 01_staging_schema.sql                      Create staging tables                                0.1s
+[2/9] 02_load_staging.sql                        Load CSV files into raw staging                      0.1s
+[3/9] 03_staging_cleaning.sql                    Clean staging data (duplicates, NULLs, text, types)  0.4s
+[4/9] 04_dw_schema.sql                           Create warehouse tables (star schema)                0.0s
+[5/9] 05_load_dimensions.sql                     Load dimensions (surrogate keys)                     0.0s
+[6/9] 06_load_facts.sql                          Load facts (business key -> surrogate key)           0.2s
+[7/9] 07_reporting_views.sql                     Create reporting views                               0.1s
+[8/9] 08_data_quality_checks.sql                 Run data quality checks                              0.2s
+   category   | status | checks 
+--------------+--------+--------
+ Accuracy     | PASS   |     25
+ Completeness | INFO   |      3
+ Completeness | PASS   |      9
+ Integrity    | PASS   |     35
+(4 rows)
+
+ check_id |   category   | status |                        check_name                        | expected | actual 
+----------+--------------+--------+----------------------------------------------------------+----------+--------
+       10 | Completeness | INFO   | Customers with no email (filled with "not provided")     | info     | 14
+       11 | Completeness | INFO   | Customers with unknown age group (filled with "Unknown") | info     | 12
+       12 | Completeness | INFO   | Customers with no valid signup date (kept as NULL)       | info     | 6
+(3 rows)
+
+
+[9/9] 09_export_cleaned_data.sql                 Save cleaned data as CSV files                       0.1s
