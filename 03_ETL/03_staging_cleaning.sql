@@ -1,13 +1,20 @@
--- Builds clean copies (stg_*_clean) of the raw staging tables; raw tables are never changed.
--- Duplicates: keep the last row that arrived (highest src_row_id). Every removed row is logged in etl_rejected_rows.
+-- makes a clean copy of each raw staging table (stg_*_clean)
+-- the raw tables are never touched
+-- when a key shows up more than once, the row that arrived last wins (highest src_row_id)
+-- anything we drop or fix gets written to etl_rejected_rows so nothing disappears quietly
 SET search_path = project_staging;
 
 TRUNCATE etl_rejected_rows RESTART IDENTITY;
 
+-- region
 DROP TABLE IF EXISTS stg_region_clean;
 CREATE TABLE stg_region_clean (
-    region_id TEXT PRIMARY KEY, city TEXT NOT NULL, province TEXT,
-    country TEXT, region_zone TEXT, src_row_id BIGINT
+    region_id    TEXT PRIMARY KEY,
+    city         TEXT NOT NULL,
+    province     TEXT,
+    country      TEXT,
+    region_zone  TEXT,
+    src_row_id   BIGINT
 );
 
 CREATE TEMP TABLE t_region AS
@@ -36,9 +43,13 @@ INSERT INTO stg_region_clean
 SELECT region_id, city, province, country, region_zone, src_row_id
 FROM t_region WHERE rn = 1 AND reject_reason IS NULL;
 
+-- channel
 DROP TABLE IF EXISTS stg_channel_clean;
 CREATE TABLE stg_channel_clean (
-    channel_id TEXT PRIMARY KEY, channel_name TEXT NOT NULL, channel_type TEXT, src_row_id BIGINT
+    channel_id    TEXT PRIMARY KEY,
+    channel_name  TEXT NOT NULL,
+    channel_type  TEXT,
+    src_row_id    BIGINT
 );
 
 CREATE TEMP TABLE t_channel AS
@@ -65,10 +76,17 @@ INSERT INTO stg_channel_clean
 SELECT channel_id, channel_name, channel_type, src_row_id
 FROM t_channel WHERE rn = 1 AND reject_reason IS NULL;
 
+-- customer
 DROP TABLE IF EXISTS stg_customer_clean;
 CREATE TABLE stg_customer_clean (
-    customer_id TEXT PRIMARY KEY, customer_name TEXT, email TEXT, gender TEXT,
-    age_group TEXT, customer_segment TEXT, signup_date DATE, src_row_id BIGINT
+    customer_id       TEXT PRIMARY KEY,
+    customer_name     TEXT,
+    email             TEXT,
+    gender            TEXT,
+    age_group         TEXT,
+    customer_segment  TEXT,
+    signup_date       DATE,
+    src_row_id        BIGINT
 );
 
 CREATE TEMP TABLE t_customer AS
@@ -102,11 +120,18 @@ INSERT INTO stg_customer_clean
 SELECT customer_id, customer_name, email, gender, age_group, customer_segment, signup_date, src_row_id
 FROM t_customer WHERE rn = 1 AND reject_reason IS NULL;
 
+-- product
 DROP TABLE IF EXISTS stg_product_clean;
 CREATE TABLE stg_product_clean (
-    product_id TEXT PRIMARY KEY, product_name TEXT NOT NULL, brand TEXT, subcategory TEXT,
-    category TEXT, unit_cost NUMERIC(10,2), list_price NUMERIC(10,2) NOT NULL,
-    is_active BOOLEAN, src_row_id BIGINT
+    product_id   TEXT PRIMARY KEY,
+    product_name TEXT NOT NULL,
+    brand        TEXT,
+    subcategory  TEXT,
+    category     TEXT,
+    unit_cost    NUMERIC(10,2),
+    list_price   NUMERIC(10,2) NOT NULL,
+    is_active    BOOLEAN,
+    src_row_id   BIGINT
 );
 
 CREATE TEMP TABLE t_product AS
@@ -135,7 +160,8 @@ INSERT INTO etl_rejected_rows (source_table, src_row_id, business_key, kind, rea
 SELECT 'stg_product', src_row_id, product_id, 'REJECTED', reject_reason
 FROM t_product WHERE (rn = 1 OR product_id IS NULL) AND reject_reason IS NOT NULL;
 
--- NULL unit_cost is not rejected. We fill it with 75% of list price and log it.
+-- a missing unit_cost doesn't get the row rejected
+-- we guess it as 75% of list price and log it as FIXED
 INSERT INTO etl_rejected_rows (source_table, src_row_id, business_key, kind, reason)
 SELECT 'stg_product', src_row_id, product_id, 'FIXED', 'Missing unit_cost filled with 75% of list_price'
 FROM t_product WHERE rn = 1 AND reject_reason IS NULL AND unit_cost_raw IS NULL;
@@ -145,10 +171,16 @@ SELECT product_id, product_name, brand, subcategory, category,
        COALESCE(unit_cost_raw, ROUND(list_price * 0.75, 2)), list_price, is_active, src_row_id
 FROM t_product WHERE rn = 1 AND reject_reason IS NULL;
 
+-- promotion
 DROP TABLE IF EXISTS stg_promotion_clean;
 CREATE TABLE stg_promotion_clean (
-    promotion_id TEXT PRIMARY KEY, promotion_name TEXT, promotion_type TEXT,
-    discount_percent NUMERIC(5,2), start_date DATE NOT NULL, end_date DATE NOT NULL, src_row_id BIGINT
+    promotion_id      TEXT PRIMARY KEY,
+    promotion_name    TEXT,
+    promotion_type    TEXT,
+    discount_percent  NUMERIC(5,2),
+    start_date        DATE NOT NULL,
+    end_date          DATE NOT NULL,
+    src_row_id        BIGINT
 );
 
 CREATE TEMP TABLE t_promotion AS
@@ -180,9 +212,13 @@ INSERT INTO stg_promotion_clean
 SELECT promotion_id, promotion_name, promotion_type, discount_percent, start_date, end_date, src_row_id
 FROM t_promotion WHERE rn = 1 AND reject_reason IS NULL;
 
+-- promotion <-> product pairs
 DROP TABLE IF EXISTS stg_promotion_product_clean;
 CREATE TABLE stg_promotion_product_clean (
-    promotion_id TEXT, product_id TEXT, src_row_id BIGINT, PRIMARY KEY (promotion_id, product_id)
+    promotion_id  TEXT,
+    product_id    TEXT,
+    src_row_id    BIGINT,
+    PRIMARY KEY (promotion_id, product_id)
 );
 
 CREATE TEMP TABLE t_pp AS
@@ -209,10 +245,15 @@ FROM t_pp WHERE (rn = 1 OR promotion_id IS NULL OR product_id IS NULL) AND rejec
 INSERT INTO stg_promotion_product_clean
 SELECT promotion_id, product_id, src_row_id FROM t_pp WHERE rn = 1 AND reject_reason IS NULL;
 
+-- orders (headers)
 DROP TABLE IF EXISTS stg_orders_clean;
 CREATE TABLE stg_orders_clean (
-    order_id TEXT PRIMARY KEY, order_date DATE NOT NULL, customer_id TEXT NOT NULL,
-    region_id TEXT NOT NULL, channel_id TEXT NOT NULL, src_row_id BIGINT
+    order_id     TEXT PRIMARY KEY,
+    order_date   DATE NOT NULL,
+    customer_id  TEXT NOT NULL,
+    region_id    TEXT NOT NULL,
+    channel_id   TEXT NOT NULL,
+    src_row_id   BIGINT
 );
 
 CREATE TEMP TABLE t_orders AS
@@ -245,11 +286,16 @@ INSERT INTO stg_orders_clean
 SELECT order_id, order_date, customer_id, region_id, channel_id, src_row_id
 FROM t_orders WHERE rn = 1 AND reject_reason IS NULL;
 
--- Sales grain: one row per order line
+-- sales: one row per order line
 DROP TABLE IF EXISTS stg_sales_clean;
 CREATE TABLE stg_sales_clean (
-    order_id TEXT, line_number INT, product_id TEXT, quantity INT NOT NULL,
-    unit_price NUMERIC(12,2) NOT NULL, promotion_id TEXT, src_row_id BIGINT,
+    order_id      TEXT,
+    line_number   INT,
+    product_id    TEXT,
+    quantity      INT NOT NULL,
+    unit_price    NUMERIC(12,2) NOT NULL,
+    promotion_id  TEXT,
+    src_row_id    BIGINT,
     PRIMARY KEY (order_id, line_number)
 );
 
@@ -280,18 +326,30 @@ INSERT INTO etl_rejected_rows (source_table, src_row_id, business_key, kind, rea
 SELECT 'stg_sales', src_row_id, COALESCE(order_id, '?') || '-' || COALESCE(line_number::text, '?'), 'REJECTED', reject_reason
 FROM t_sales WHERE (rn = 1 OR order_id IS NULL OR line_number IS NULL) AND reject_reason IS NOT NULL;
 
--- an unknown promotion_id is not a reason to reject the sale: we treat it as "no promotion"
+-- if the promotion_id doesn't exist we still keep the sale
+-- and just treat it as having no promotion
 INSERT INTO stg_sales_clean
-SELECT s.order_id, s.line_number, s.product_id, s.quantity, s.unit_price,
+SELECT s.order_id,
+       s.line_number,
+       s.product_id,
+       s.quantity,
+       s.unit_price,
        CASE WHEN EXISTS (SELECT 1 FROM stg_promotion_clean p WHERE p.promotion_id = s.promotion_id)
             THEN s.promotion_id END,
        s.src_row_id
 FROM t_sales s WHERE s.rn = 1 AND s.reject_reason IS NULL;
 
+-- inventory
 DROP TABLE IF EXISTS stg_inventory_clean;
 CREATE TABLE stg_inventory_clean (
-    snapshot_date DATE, product_id TEXT, region_id TEXT, quantity_on_hand INT NOT NULL,
-    quantity_received INT, quantity_sold INT, reorder_level INT, src_row_id BIGINT,
+    snapshot_date      DATE,
+    product_id         TEXT,
+    region_id          TEXT,
+    quantity_on_hand   INT NOT NULL,
+    quantity_received  INT,
+    quantity_sold      INT,
+    reorder_level      INT,
+    src_row_id         BIGINT,
     PRIMARY KEY (snapshot_date, product_id, region_id)
 );
 
@@ -328,6 +386,7 @@ INSERT INTO stg_inventory_clean
 SELECT snapshot_date, product_id, region_id, quantity_on_hand, quantity_received, quantity_sold, reorder_level, src_row_id
 FROM t_inv WHERE rn = 1 AND reject_reason IS NULL;
 
+-- remember how many rows each clean table ended up with
 INSERT INTO etl_row_counts (batch_id, step, object_name, row_count)
 SELECT (SELECT MAX(batch_id) FROM etl_batch), 'clean', t.name, t.n
 FROM (
@@ -342,6 +401,7 @@ FROM (
     SELECT 'stg_inventory_clean', COUNT(*) FROM stg_inventory_clean
 ) t;
 
+-- what got removed or fixed, grouped by table and reason
 SELECT source_table, kind, reason, COUNT(*) AS rows
 FROM etl_rejected_rows
 GROUP BY source_table, kind, reason
