@@ -1,4 +1,5 @@
--- Exports the clean staging tables to CSV files in 02_Data/cleaned_data (run from the repository root).
+-- dumps every clean staging table to a csv in 02_Data/cleaned_data
+-- run it from the repo root, otherwise the relative paths won't work
 \copy (SELECT * FROM project_staging.stg_region_clean ORDER BY region_id) TO '02_Data/cleaned_data/regions_clean.csv' WITH (FORMAT csv, HEADER true)
 \copy (SELECT * FROM project_staging.stg_channel_clean ORDER BY channel_id) TO '02_Data/cleaned_data/channels_clean.csv' WITH (FORMAT csv, HEADER true)
 \copy (SELECT * FROM project_staging.stg_customer_clean ORDER BY customer_id) TO '02_Data/cleaned_data/customers_clean.csv' WITH (FORMAT csv, HEADER true)
