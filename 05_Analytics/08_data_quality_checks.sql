@@ -1,4 +1,6 @@
--- Data quality checks (completeness, accuracy, integrity); each result is saved in project_reporting.dq_results as PASS, FAIL or INFO.
+-- Data quality checks: completeness, accuracy and integrity.
+-- Every check writes one row into project_reporting.dq_results
+-- with a status of PASS, FAIL or INFO.
 CREATE TABLE IF NOT EXISTS project_reporting.dq_results (
     check_id    INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     category    TEXT,
@@ -8,11 +10,14 @@ CREATE TABLE IF NOT EXISTS project_reporting.dq_results (
     status      TEXT,
     checked_at  TIMESTAMPTZ DEFAULT now()
 );
+
+-- start fresh on every run
 TRUNCATE project_reporting.dq_results RESTART IDENTITY;
 
 SET search_path = project_dw, project_staging, project_reporting;
 
--- 1. COMPLETENESS  (expected 0 missing)
+-- 1. COMPLETENESS  (we expect zero missing values)
+
 INSERT INTO dq_results (category, check_name, expected, actual, status)
 SELECT 'Completeness', t.name, '0', t.n::text, CASE WHEN t.n = 0 THEN 'PASS' ELSE 'FAIL' END
 FROM (
@@ -39,7 +44,8 @@ FROM (
            (SELECT COUNT(*) FROM fact_promotion_event WHERE date_key IS NULL OR product_key IS NULL OR promotion_key IS NULL)
 ) t;
 
--- NULLs that were handled during cleaning (information only)
+-- Gaps we already patched while cleaning the data.
+-- These are only for information, so they never fail.
 INSERT INTO dq_results (category, check_name, expected, actual, status)
 SELECT 'Completeness', 'Customers with no email (filled with "not provided")', 'info',
        COUNT(*)::text, 'INFO' FROM dim_customer WHERE email = 'not provided';
@@ -50,9 +56,10 @@ INSERT INTO dq_results (category, check_name, expected, actual, status)
 SELECT 'Completeness', 'Customers with no valid signup date (kept as NULL)', 'info',
        COUNT(*)::text, 'INFO' FROM dim_customer WHERE signup_date IS NULL;
 
--- 2. ACCURACY : reconciliation  (staging clean tables vs warehouse)
---    The staging side is calculated on its own, without the dimensions.
--- 2a. every raw row is accounted for: raw = clean + removed
+-- 2. ACCURACY: do staging and the warehouse agree
+--    Staging totals are worked out on their own, without any dimensions.
+
+-- 2a. No row went missing along the way: raw = clean + removed
 INSERT INTO dq_results (category, check_name, expected, actual, status)
 SELECT 'Accuracy', 'Raw = clean + removed rows: ' || t.src, t.raw::text, (t.clean + t.removed)::text,
        CASE WHEN t.raw = t.clean + t.removed THEN 'PASS' ELSE 'FAIL' END
@@ -77,7 +84,7 @@ FROM (
            (SELECT COUNT(*) FROM etl_rejected_rows WHERE source_table = 'stg_inventory' AND kind IN ('REJECTED','DUPLICATE'))
 ) t;
 
--- 2b. clean staging  ->  warehouse
+-- 2b. Clean staging data should match what landed in the warehouse
 INSERT INTO dq_results (category, check_name, expected, actual, status)
 SELECT 'Accuracy', t.name, t.expected::text, t.actual::text,
        CASE WHEN t.expected = t.actual THEN 'PASS' ELSE 'FAIL' END
@@ -112,7 +119,7 @@ FROM (
            (SELECT COUNT(*) FROM fact_promotion_event)
 ) t;
 
--- 2c. every row calculates correctly
+-- 2c. The maths inside each row should hold up (expected 0 bad rows)
 INSERT INTO dq_results (category, check_name, expected, actual, status)
 SELECT 'Accuracy', t.name, '0', t.n::text, CASE WHEN t.n = 0 THEN 'PASS' ELSE 'FAIL' END
 FROM (
@@ -136,7 +143,8 @@ FROM (
 ) t;
 
 -- 3. INTEGRITY
--- 3a. orphan checks: fact rows with no matching dimension row (expected 0)
+
+-- 3a. Orphans: fact rows that point at a dimension row that doesn't exist (expected 0)
 INSERT INTO dq_results (category, check_name, expected, actual, status)
 SELECT 'Integrity', 'Orphans: ' || t.name, '0', t.n::text, CASE WHEN t.n = 0 THEN 'PASS' ELSE 'FAIL' END
 FROM (
@@ -166,7 +174,7 @@ FROM (
            (SELECT COUNT(*) FROM fact_promotion_event f LEFT JOIN dim_promotion d ON d.promotion_key = f.promotion_key WHERE d.promotion_key IS NULL)
 ) t;
 
--- 3b. dimension uniqueness: total rows = distinct business keys
+-- 3b. Each dimension's business key should be unique (total rows = distinct keys)
 INSERT INTO dq_results (category, check_name, expected, actual, status)
 SELECT 'Integrity', 'Unique business key: ' || t.name, t.total::text, t.distinct_keys::text,
        CASE WHEN t.total = t.distinct_keys THEN 'PASS' ELSE 'FAIL' END
@@ -179,7 +187,13 @@ FROM (
     SELECT 'dim_promotion.promotion_id', COUNT(*), COUNT(DISTINCT promotion_id) FROM dim_promotion
 ) t;
 
--- 3c. the grain is kept: no repeated key combination in a fact table
+-- 3c. The No Promotion placeholder (key 0) must exist exactly once
+INSERT INTO dq_results (category, check_name, expected, actual, status)
+SELECT 'Integrity', 'dim_promotion has exactly one "No Promotion" row with key 0', '1', COUNT(*)::text,
+       CASE WHEN COUNT(*) = 1 THEN 'PASS' ELSE 'FAIL' END
+FROM dim_promotion WHERE promotion_key = 0;
+
+-- 3d. Grain check: the same key combination must never appear twice in a fact table
 INSERT INTO dq_results (category, check_name, expected, actual, status)
 SELECT 'Integrity', 'Duplicate grain rows: ' || t.name, '0', t.n::text, CASE WHEN t.n = 0 THEN 'PASS' ELSE 'FAIL' END
 FROM (
@@ -191,12 +205,10 @@ FROM (
            (SELECT COUNT(*) - COUNT(DISTINCT (date_key, product_key, promotion_key)) FROM fact_promotion_event)
 ) t;
 
-INSERT INTO dq_results (category, check_name, expected, actual, status)
-SELECT 'Integrity', 'dim_promotion has exactly one "No Promotion" row with key 0', '1', COUNT(*)::text,
-       CASE WHEN COUNT(*) = 1 THEN 'PASS' ELSE 'FAIL' END
-FROM dim_promotion WHERE promotion_key = 0;
+-- 3e. Constraint tests: each bad insert below MUST be rejected.
+--     If the database lets it through, that check is marked FAIL.
 
--- 3d. constraint tests: bad inserts MUST fail
+-- unknown customer_key should hit the foreign key
 DO $$
 BEGIN
     INSERT INTO project_dw.fact_sales (date_key, customer_key, product_key, region_key, channel_key, promotion_key,
@@ -209,6 +221,7 @@ EXCEPTION WHEN foreign_key_violation THEN
     VALUES ('Integrity', 'Constraint test: fact row with unknown customer_key', 'rejected', 'rejected by foreign key', 'PASS');
 END $$;
 
+-- a repeated customer_id should hit the unique constraint
 DO $$
 BEGIN
     INSERT INTO project_dw.dim_customer (customer_id)
@@ -220,6 +233,7 @@ EXCEPTION WHEN unique_violation THEN
     VALUES ('Integrity', 'Constraint test: duplicate customer_id in dim_customer', 'rejected', 'rejected by unique constraint', 'PASS');
 END $$;
 
+-- loading the same order line twice should hit the unique constraint
 DO $$
 BEGIN
     INSERT INTO project_dw.fact_sales (date_key, customer_key, product_key, region_key, channel_key, promotion_key,
@@ -234,6 +248,7 @@ EXCEPTION WHEN unique_violation THEN
     VALUES ('Integrity', 'Constraint test: same order line loaded twice', 'rejected', 'rejected by unique constraint', 'PASS');
 END $$;
 
+-- quantity = 0 should hit the check constraint
 DO $$
 BEGIN
     INSERT INTO project_dw.fact_sales (date_key, customer_key, product_key, region_key, channel_key, promotion_key,
@@ -246,7 +261,8 @@ EXCEPTION WHEN check_violation THEN
     VALUES ('Integrity', 'Constraint test: fact row with quantity = 0', 'rejected', 'rejected by check constraint', 'PASS');
 END $$;
 
--- 3e. safe re-run: warehouse row counts must equal the previous batch (only if a previous run exists)
+-- 3f. Safe re-run: this batch's warehouse row counts should equal the previous batch.
+--     Nothing is inserted here if there is no earlier run to compare with.
 INSERT INTO dq_results (category, check_name, expected, actual, status)
 SELECT 'Integrity', 'Re-run gives same row count: ' || cur.object_name,
        prev.row_count::text, cur.row_count::text,
@@ -259,5 +275,6 @@ JOIN project_staging.etl_row_counts prev
 WHERE cur.step = 'dw_load'
   AND cur.batch_id = (SELECT MAX(batch_id) FROM project_staging.etl_batch);
 
+-- Results: a summary first, then anything that did not pass
 SELECT category, status, COUNT(*) AS checks FROM dq_results GROUP BY category, status ORDER BY category, status;
 SELECT check_id, category, status, check_name, expected, actual FROM dq_results WHERE status <> 'PASS' ORDER BY check_id;
